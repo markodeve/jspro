@@ -29,7 +29,8 @@
 
 
 // console.log(obj.name);
-// console.log(obj["name"]); //also works but must use quotation marks but better to use the dot one
+// console.log(obj["name"]); //also works but must use quotation marks 
+//but better to use the dot one
 
 
 // let img = ["plum.png", "orange.jpg", 6, "apple.bmp", {}, []];
