@@ -96,7 +96,7 @@ console.log(isLala && isClose); //false
 console.log(isLala || isClose); //klubnika
 
 
-
+let pull = "pull";
 
 
 
