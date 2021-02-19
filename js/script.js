@@ -97,6 +97,7 @@ console.log(isLala || isClose); //klubnika
 
 
 let pull = "pull";
+let  merge = "merge";
 
 
 
