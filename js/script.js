@@ -100,3 +100,5 @@ console.log(isLala || isClose); //klubnika
 
 
 
+
+
