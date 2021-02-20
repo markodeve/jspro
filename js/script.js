@@ -278,3 +278,78 @@
 //     console.log('1');
 //     return a + b;
 // };
+
+
+//017
+// const loa = "teSto";
+// // const loamas = [1, 2, 3, 5];
+
+
+// // console.log(loa[2]);
+
+// console.log(loa.toUpperCase());
+// console.log(loa.toLowerCase());
+// // console.log(loa);
+
+// const fruit = "Some fruit";
+
+// console.log(fruit.indexOf("fruit"));//stroke starts from 5th
+
+// const toff = "Hello world";
+
+// console.log(toff.slice(6, 11));//world
+
+// console.log(toff.slice(6));//world
+
+// console.log(toff.substring(6, 11));
+
+
+//                     //start//how much symbols
+// console.log(toff.substr(6, 5));
+
+
+// const numaaa = 12.2;
+
+// console.log(Math.round(numaaa));
+
+// const testa = "12.2px";
+// console.log(parseInt(testa));//rounds as well
+// console.log(parseFloat(testa));//not rounds
+
+//practice 18
+
+
+//DIFFICULTBACK FUNCTION
+
+function first() {
+    //do somethung
+    setTimeout(function(){
+        console.log(1);
+    }, 500);
+}
+
+
+function second() {
+    console.log(2);
+}
+
+first();
+second();
+//callback function is a function
+// that shoud be executed when the
+// other fuction finalized it's execution
+
+//difficultback func:(!!!)
+
+// function learmJS(lang, callback) {
+//     console.log(`I learn: ${lang}`);
+//     callback();
+// }
+
+// function done() {
+//     console.log('I finished this lesson!');
+// }
+
+// learmJS('Go', done);
+
+
