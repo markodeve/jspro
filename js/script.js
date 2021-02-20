@@ -321,20 +321,20 @@
 
 //DIFFICULTBACK FUNCTION
 
-function first() {
-    //do somethung
-    setTimeout(function(){
-        console.log(1);
-    }, 500);
-}
+// function first() {
+//     //do somethung
+//     setTimeout(function(){
+//         console.log(1);
+//     }, 500);
+// }
 
 
-function second() {
-    console.log(2);
-}
+// function second() {
+//     console.log(2);
+// }
 
-first();
-second();
+// first();
+// second();
 //callback function is a function
 // that shoud be executed when the
 // other fuction finalized it's execution
@@ -353,3 +353,100 @@ second();
 // learmJS('Go', done);
 
 
+//objects methods
+
+// const options = {
+//     name: 'Miàntuán',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'blue',
+//         bg: 'purple'
+//     },
+//     makeTesto: function() {
+//         console.log('testo'); //our method
+//     }
+// };
+
+// options.makeTesto();
+
+// //destructuration
+
+// const {border, bg} = options.colors;
+// console.log(border);
+
+// console.log(Object.keys(options).length);//we get array
+
+// console.log(options.name);
+
+
+// delete options.name;
+
+// console.log(options);
+
+// for (let pisa in options) {
+//     console.log(`option ${pisa} has the value ${options[pisa]}`);
+// }
+
+
+// const manelist = {
+//     name: 'Nicolae Guta',
+//     song: 'Sus paharele',
+//     age: '90',
+//     children: {
+//         Nicusor: 'guta',
+//         Nicu: 'gutaa'
+//     }
+// };
+
+// let count = 0;
+// for (let key in manelist) {
+//     if (typeof(manelist[key]) === 'object') {
+//         for (let i2 in manelist[key] ) {
+//             console.log(`manelist is ${i2} and ${manelist[key][i2]}`);
+//             count++;
+//         }
+//     } else {
+//         console.log(`manelist is ${key} and ${manelist[key]}`);
+//         count++;
+//     } 
+// };
+// console.log(count);
+
+
+
+//ARREYS
+
+// const arrey = [1, 2, 3, 6, 8];
+// arrey[99] = 0;
+// console.log(arrey.length);//gives 100
+// console.log(arrey);
+
+
+
+// arrey.pop(); //delets last element
+
+// arrey.push(11, 15);// adds
+
+// console.log(arrey);
+
+// for (let i = 0; i < arrey.length; i++) {
+//     console.log(arrey[i]);
+// }
+
+
+// for (let value of arrey) {
+//     console.log(value);
+// }
+
+
+// const arrey2 = [1, 3, 5, 7, 8];
+
+// arrey2.forEach(function(item, i, arrey2){
+//     console.log(`${i}: ${item} inside massive ${arrey2}`);
+// });
+
+const sttr = prompt("", "");
+const products = sttr.split(", ");
+products.sort();
+console.log(products.join('; '));
