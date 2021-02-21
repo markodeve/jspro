@@ -599,3 +599,59 @@
 
 // johny.sayHello();
 
+//TO STRING
+
+//1)
+
+// console.log((String(null)));
+// console.log(typeof(String(4)));
+
+// // 2)
+// console.log(typeof(5 + ''));
+
+// const numaaaa = 5;
+
+// console.log("https://google.com/catalog/" + numaaaa);
+
+// const fontSize = 26 + 'px';
+
+// TO NUMBER
+// //1)
+// console.log(typeof(Number('4')));
+// //2)
+// console.log(typeof(+'5'));
+
+// //3)
+
+// console.log(typeof(parseInt("15px", 10)));
+
+
+// let answww = +prompt("Hello", "");
+
+//To Bulani
+
+
+//false:
+// 0, '', null, undefined, NaN
+
+// let switcher = null;
+
+// if (switcher) {
+//     console.log('working...');
+// }
+
+
+// 2)
+
+// console.log(typeof(Boolean('4')));
+
+// // 3)
+
+// console.log(typeof(!!"4444"));
+
+//!!!!!!!!!!!!!!
+
+//&& stamps on lie
+
+//|| stamps on truth
+
