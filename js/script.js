@@ -446,7 +446,110 @@
 //     console.log(`${i}: ${item} inside massive ${arrey2}`);
 // });
 
-const sttr = prompt("", "");
-const products = sttr.split(", ");
-products.sort();
-console.log(products.join('; '));
+// const sttr = prompt("", "");
+// const products = sttr.split(", ");
+// products.sort();
+// console.log(products.join('; '));
+
+
+// let a = 5,
+//     b = a;
+
+//     b = b + 5;
+// console.log(b);
+// console.log(a);
+
+// const objaa = {
+//     a: 5,
+//     b: 1
+// };
+
+//link:
+// const copy = objaa;
+
+// copy.a = 10;
+// //when changing in copy we modify our initial object
+// console.log(copy);
+// console.log(objaa);
+
+
+//cloning object
+// function copy (mainObject) {
+//     let objCopy = {};
+
+//     let key;
+//     for (key in mainObject) {
+//         objCopy[key] = mainObject [key];
+//     }
+//     return objCopy;
+// }
+
+// const numberss = {
+//     a: 2,
+//     b: 5,
+//     c: {
+//         x: 7,
+//         y: 9
+//     }
+// };
+
+// const newNumberss = copy(numberss);
+// //surface copy
+// newNumberss.a = 10;
+
+// //will also link:
+// newNumberss.c.x = 19;
+
+// // console.log(newNumberss);
+// // console.log(numberss);
+
+// const adda = {
+//     d: 17,
+//     e: 20
+// };
+
+// //independent surface copy of object
+// const clona = Object.assign({}, adda);
+
+// clona.d = 20;
+
+// // console.log(adda);
+// // console.log(clona);
+
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice();
+
+// newArray[1] = 'adidasi';
+// console.log(newArray);
+// console.log(oldArray);
+
+
+
+// const video = ['youtube', 'vimeo', 'rutube'],
+//       blogs = ['wordpress', 'livejournal', 'blogger'],
+//       internet = [...video, ...blogs, 'vk', 'fb'];
+
+// console.log(internet);
+
+// function loga(a, b, c) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// const numo = [2, 5, 7];
+// //razbiraet massiv
+// loga(...numo);
+
+// const array10 = ["a", "b"];
+
+// const newArray10 = [...array10];
+
+// const q = {
+//     one: 1,
+//     two: 2
+// };
+
+// const newObj2 = {...q};
+
+// console.log(newObj2);
