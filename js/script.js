@@ -553,3 +553,49 @@
 // const newObj2 = {...q};
 
 // console.log(newObj2);
+
+//OBJECT ORIENTED PROGRAMMING
+
+// var a = "object oriented programming";
+
+// var b = a.toUpperCase();
+
+// console.log(b);
+
+// let strolo = "some";
+// let strObj = new String(strolo);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+// console.dir([1, 2, 3]);
+
+
+
+// const soldier = {
+//     health: 1000,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log("hello");
+//     }
+// };
+
+
+// const johny = Object.create(soldier);
+
+// const johny = {
+//     health: 900
+// };
+
+
+//decapre
+// johny.__proto__ = soldier;
+
+
+///new
+// Object.setPrototypeOf(johny, soldier);
+
+// console.log(johny.armor);
+
+// johny.sayHello();
+
