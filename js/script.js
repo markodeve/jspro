@@ -655,3 +655,7 @@
 
 //|| stamps on truth
 
+// const boxxx = document.getElementById('box');
+
+// const batana = document.getElementsByTagName('button')[1];
+
