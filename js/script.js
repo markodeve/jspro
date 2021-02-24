@@ -659,3 +659,33 @@
 
 // const batana = document.getElementsByTagName('button')[1];
 
+//--------------------------
+
+//dom elements nav
+
+// console.log(document.head);
+
+// console.log(document.documentElement);
+
+// console.log(document.body.childNodes);
+
+// console.log(document.body.firstChild);
+// console.log(document.body.lastChild);
+
+
+// console.log(document.querySelector('#current').parentNode.parentNode);
+
+// console.log(document.querySelector('[data-current="3"]').nextElementSibling);
+
+// console.log(document.querySelector('#current').parentElement);
+
+// console.log(document.body.firstElementChild);
+
+// for (let noud of document.body.childNodes) {
+
+//     if (noud.nodeName == '#text') {
+//         continue;
+//     }
+
+//     console.log(noud);
+// }
