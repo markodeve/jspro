@@ -690,3 +690,19 @@
 //     console.log(noud);
 // }
 
+// const p = document.querySelectorAll('p');
+
+// console.log(p);
+
+
+
+// function loadScriot(src) {
+//     const scripta = document.createElement('script');
+//     scripta.src = src;
+//     scripta.async = false;
+//     document.body.append(scripta);
+// }
+
+// loadScriot("js/script2.js");
+// loadScriot("js/banana.js");
+

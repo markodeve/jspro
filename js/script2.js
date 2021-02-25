@@ -34,3 +34,16 @@
 // console.log(typeof(Pira));
 // Pira = Number(Pira);
 // console.log(typeof(Pira));
+
+
+
+
+// let a = "123";
+
+// let b = "112";
+
+// console.log(+a + (+b));
+
+NaN
+NaN
+false
