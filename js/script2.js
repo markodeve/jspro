@@ -44,6 +44,4 @@
 
 // console.log(+a + (+b));
 
-NaN
-NaN
-false
+
