@@ -706,3 +706,19 @@
 // loadScriot("js/script2.js");
 // loadScriot("js/banana.js");
 
+
+
+//THE ?? is new very very new
+
+// let user = null;
+
+// console.log(user ?? 'clown');
+
+
+// let user = 'Koosi',
+//     level = null,
+//     age = 90;
+
+// console.log(`the user is: ${user ?? 'unknown'} his level is: ${level ?? 'we donno his level'} his age is: ${age ?? 'we donno his age'}`);
+
+
