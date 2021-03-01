@@ -182,5 +182,113 @@
 //     console.log('user not recognized');
 // }
 
+//CYCLES
+
+// let i = 0;
+// while (i < 11) {
+//     console.log(i);
+//     i++;
+// }
+
+// let i = 3;
+// while (i) { 
+//   console.log(i);
+//   i--;
+// }
+
+// let Amish = 250;
+
+// do {
+//     console.log(Amish);
+//     Amish++;
+// } while (Amish < 300 + 1);
 
 
+// for (let x = 150; x > 100; x--) {
+//     console.log(x);
+// }
+
+
+//BREAK
+
+// let sum = 0;
+
+// while (true) {
+
+//   let value = +prompt("Введите Number", '');
+
+//   if (!value) break;
+
+//   sum += value;
+
+// }
+// console.log( 'Сумма: ' + sum );
+
+
+//CONTINUE
+// for(let i = 0; i < 30; i++) {
+//     if (i % 2 == 0) continue;
+//     console.log(i);
+// }
+
+
+// let guests = ['Moishe', 'Dovid', 'Menashe', 'Shneur', 'Pisa'];
+
+
+// for (let i = 0; i < guests.length; i++) {
+//     if ((guests[i] == 'Menashe') || (guests[i] == 'Shneur') || (guests[i] == 'Pisa')) continue;
+//     console.log(guests[i]);  
+// }
+
+
+// outer: for (let i = 0; i < 30; i++) {
+//     for (let j = 0; j < 30; j++) {
+//         let input = prompt(`Meaning of coordinates is: (${i}, ${j})`, '');
+//         if (!input) break outer; //come out from both cycles
+
+//     }
+// }
+
+// console.log('ready');
+
+
+// for (let i = 1; i <= 10; i++) {
+    
+//     if ((i % 2) == 0) {
+//         console.log(i);
+//     }
+   
+// }
+
+
+// for (let i = 0; i < 3; i++) {
+//     console.log( `number ${i}!` );
+//   }
+
+
+// let i = 0;
+// while (i < 3) {
+//     console.log(`number ${i}!`);
+//     i++;
+// }
+
+
+// let num;
+
+// do {
+//   num = prompt("Write a number more then 100", 0);
+// } while (num <= 100 && num);
+
+// console.log(num);
+
+// let n = 10;
+
+// nextPrime:
+// for (let i = 2; i <= n; i++) { 
+
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) continue nextPrime;
+//   }
+
+//   console.log(i); 
+// }
