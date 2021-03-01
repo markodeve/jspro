@@ -292,3 +292,81 @@
 
 //   console.log(i); 
 // }
+
+
+//SWITCH
+
+// let stylee = +prompt('number please: 10, 15, 18, 19 or more then 19', '');
+
+// switch (stylee) {
+//     case 10:
+//         console.log('a little');
+//         break;
+//     case 15:
+//         console.log('better!');
+//         break;
+//     case 18:
+//         console.log('almost perfect');
+//         break;
+//     case 19:
+//         console.log('in cabbage!');
+//         break;
+//     default:
+//         break;
+// }
+
+
+// let pop = +prompt('cmonn', '');
+//!!! checking is strict !!!
+// switch (pop) {
+//     case 10:
+//     case 11:
+//     case 12://grouping cases
+//         console.log(pop);
+//         break;
+//     default:
+//         console.log('hahaha');
+// }
+
+// let brouser = 'Opera';
+
+// if (brouser == 'Edge') {
+//     console.log("It's Edge");
+// } else if (brouser == 'Chrome' || brouser == 'Firefox' || brouser == 'Safari' || brouser == 'Opera') {
+//     console.log(`We also support ${brouser}`);
+// } else {
+//     console.log(`We hope it's "allright"!`);
+// }
+
+
+// const number2 = +prompt('Введите число между 0 и 3', '');
+
+// if (number2 === 0) {
+//   alert('Вы ввели число 0');
+// }
+
+// if (number2 === 1) {
+//   alert('Вы ввели число 1');
+// }
+
+// if (number2 === 2 || number2 === 3) {
+//   alert('Вы ввели число 2, а может и 3');
+// }
+
+// const numero = +prompt('write a number between 0 and 3', '');
+
+// switch (numero) {
+//     case 0:
+//         console.log('You have entered the number 0');
+//         break;
+//     case 1:
+//         console.log('You have entered the number 1');
+//         break;
+//     case 2:
+//     case 3:
+//         console.log('You have entered 2 or 3');
+//         break;
+//         default:
+//         break;
+// }
+
