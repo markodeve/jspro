@@ -370,3 +370,202 @@
 //         break;
 // }
 
+
+// function LogMessage() {
+//     console.log('message');
+// }
+
+// LogMessage();
+
+
+
+// let Keidar = "Dov";
+
+// function HelloKeidar() {
+//     let message = `Hello ${Keidar}`;
+//     console.log(message);
+// }
+
+// HelloKeidar();
+
+// let userName = "Pas";
+
+// function Mesa() {
+//     userName = "pataya";
+//     let message = `Hello ${userName}`;
+//     console.log(message);
+// }
+
+// console.log(userName);
+// Mesa();
+// console.log(userName);
+
+
+// let Kachan = 'Kochang, Thailand';
+
+// function Tryer() {
+//     let Kachan = 'Bangkok, Thailand';
+//     console.log(Kachan);
+// }
+
+// console.log(Kachan);
+// Tryer();
+// console.log(Kachan);
+
+
+// function ThaiResort(place, hotel) {
+//     console.log(`Your destinations is ${place}: ${hotel}`);
+// }
+
+// ThaiResort('Kochang', 'Raddison');
+
+// function Levitas(cool, text = 'no value') {//default parametr
+//     console.log(cool, text);
+// }
+
+// Levitas('wow');
+
+// function Texter2() {
+//     console.log('second text');
+// }
+
+// function Texter(first, second = Texter2()) {
+//     console.log(first);
+    
+// } 
+
+// Texter('hi1');
+
+
+// function Veod(a, b) {
+//     return a + b;
+// }
+
+// console.log(Veod(10, 50));
+
+
+// function CheckAge(age) {
+//     if (age > 18) {
+//         return true;
+//     } else {
+//         return confirm('shaved shorter and flip-floper');
+//     }
+// }
+
+// let age = prompt('how old are you?', 18);
+
+// if (CheckAge(age)) {
+//     console.log('Access granted');
+// } else {
+//     console.log('acces closed');
+// }
+
+// function Nelutu(a, b) {
+//     if (a < b) {
+//         return a;
+//     } else if (b < a) {
+//         return b;
+//     } else {
+//         console.log('they are equal');
+//     }
+// }
+
+//FUNCTION EXPRESSION
+
+// let sayHi = function() {
+//     console.log('Hi');
+// };
+
+// let AlsoHi = sayHi;
+
+// AlsoHi();
+
+
+//CALLBACKS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// function Asking(text, yes, no) {
+//     if (confirm(text)){
+//          yes();
+//     } else {
+//         no();
+// }
+// }
+
+// function Yeah() {
+//     console.log('Yeah Shlomi');
+// }
+
+// function Nope() {
+//     console.log('nope Shlomi');
+// }
+
+// Asking('you?', Yeah, Nope);
+
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+  
+//   ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert("Вы отменили выполнение."); }
+//   );
+
+// function Timer(text, day, night) {
+//     if(confirm(text)) { day(); } else { night(); }
+// }
+
+// Timer(
+//     'Day or night?',
+//     //ANONYMOUS FUNCTIONS
+//     function () { console.log("It's day"); },
+//     function() { console.log("It's night"); }
+//     //ALSO
+//     // () => { console.log("It's day"); },
+//     // () => { console.log("It's night"); }
+// );
+
+
+// let Lupu = function Maf() {
+//     console.log('hahaha');
+// };
+
+// Lupu();
+
+
+
+// let GetRestApi = (a, b, d) => {
+//     if (a > 10) {
+//         console.log('first not more then 10');
+//     } else if (b > 20) {
+//         console.log('second not more then 20');
+//     } else if (d > 5) {
+//         console.log('third not more then 5');
+//     } else {
+//         return a + b * d;
+//     }
+    
+// };
+
+// console.log(GetRestApi(102, 32, 25));
+
+// let SychovHardLearning = (a, b) => a + b;
+
+// let CheeseBurger = (a) => a * 2;
+
+// let Win = () => console.log('Win');
+
+// let AgeChess = prompt('How much squares on board', '');
+
+// let Yes = 
+
+// (AgeChess < 0) ? () => console.log('Noo not above cero!') :
+// (AgeChess > 100) ? () => console.log('That is too much!') :
+// (AgeChess != 64) ? () => console.log('Not correct answer') :
+// () => console.log('Yes correct!'); 
+         
+
+// Yes();
+
+
