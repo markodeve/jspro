@@ -584,4 +584,79 @@
 // console.log(games);
 
 
+// let powaa = (a, b) => (a ** b);
 
+
+
+//OBJECTS
+
+// let user = new Object();
+
+// //Literal notation>>>
+
+// let user2 = {};
+
+// let users = {
+//     user1: 'John',
+//     user2: {
+//         name: 'Michael',
+//         "likes tomatoes": false
+//     },
+//     user3: 'Steve',
+//     user5: 'Di Gianni',
+//     user7: {
+//         name: 'Vic',
+//         isAdmin: true
+//     }
+// };
+
+// let tomatoLove = "likes tomatoes";
+
+// users.user2[tomatoLove] = 'Will love them soon';
+
+// users.user7.isAdmin = false;
+
+// delete users.user7.isAdmin;
+
+// users.user7 = 'Vic';
+
+//COMPUTED PROPERTIES
+
+// let vegetable = prompt('which vegetable to buy', 'tomato');
+
+// let bag = {
+//     [vegetable]: 10
+// };
+
+// console.log(bag.tomato);
+
+
+// let makeSychov = (name, age, skills) => {
+//     return {
+//         name: name,
+//         age: age,
+//         skills
+//     };
+// };
+
+// let Sycha = makeSychov('Saveliy', 97, 99.99999998);
+
+// console.log(Sycha);
+
+//THE IN
+
+// let Duo = {
+//     helpful: 'no',
+//     free: 'no'
+// };
+
+// console.log('free' in Duo);
+
+
+let Treviso = {
+    ability: undefined
+};
+
+console.log(Treviso.ability); //will give undefined
+
+console.log('ability' in Treviso); //Will give klubnichka
