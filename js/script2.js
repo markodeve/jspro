@@ -653,10 +653,129 @@
 // console.log('free' in Duo);
 
 
-let Treviso = {
-    ability: undefined
-};
+// let Treviso = {
+//     ability: undefined
+// };
 
-console.log(Treviso.ability); //will give undefined
+// console.log(Treviso.ability); //will give undefined
 
-console.log('ability' in Treviso); //Will give klubnichka
+// console.log('ability' in Treviso); //Will give klubnichka
+
+
+//FOR IN CYCLE
+
+// let Money = {
+//     currency: "Australian dollar",
+//     yearFounded: 30,
+//     isGood: true
+// };
+
+// for (let koosi in Money) {
+//     console.log(koosi);//keys
+//     console.log(Money[koosi]);//values
+    
+// }
+
+
+// let user = {
+//     name: "John",
+//     surname: "Smith"
+// };
+
+// user.name = "Pete";
+
+
+// delete user.name;
+
+
+// let shedule = {
+//     Odorlo: 'odorlo'
+// };
+
+// let isEmpty = (obj) => {
+//     for(let key in obj) {
+//         return false;
+//     }
+//     return true;
+// };
+
+// console.log(isEmpty(shedule));
+
+
+// let Salaries = {
+//     Smilga: 19000,
+//     Smith: 2500,
+//     Peter: 3000
+// };
+
+// let sum = 0;
+
+// for (let koosi in Salaries) {
+//     sum += Salaries[koosi];
+// }
+
+// console.log(sum);
+
+
+// let menu = {
+//     width: 500,
+//     height: 500,
+//     textAlign: 'center'
+// };
+
+// let multiplyNumeric = (obj) => {
+//     for(let key in obj) {
+//         if (typeof(obj[key]) == 'number') {
+//             (obj[key] *= 2);
+//         } 
+//     }
+// };
+
+// multiplyNumeric(menu);
+
+// console.log(menu);
+
+// let Tomatoes = {
+//     type: 'pri'
+// };
+
+// let TomatoesVeggie = Tomatoes;
+
+// TomatoesVeggie.type = 'Vegetable';
+
+
+// //CREATE INDEPENDENT OBJECT COPY
+// let Pishta = {
+//     age: 89,
+//     job: 'Builder'
+// };
+
+// let clone = {};
+
+// for (let key in Pishta) {
+//     clone[key] = Pishta[key];
+// }
+
+// clone.age = 99;
+// clone.job = 'engineer';
+
+// console.log(Pishta);
+// console.log(clone);
+
+
+// let user = { name: "Salo" };
+
+// let permissions1 = { canView: true };
+// let permissions2 = { canEdit: true };
+
+// // copy all svoystva from permissions1 and permissions2 to user
+
+// Object.assign(user, permissions1, permissions2);
+
+// console.log(user);
+
+let Students = {};
+
+Object.assign(Students, {name1: 'Ganskiy', name2: 'Vionkova', name3: 'Grusha', name5: 'Marko'});
+//WE CLONE LIKE THIS NOW. WILL COPY TO EMPTY OBJECT AND WILL RETURN IT
+let cloneStudents = Object.assign({}, Students);
