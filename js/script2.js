@@ -569,3 +569,19 @@
 // Yes();
 
 
+// let nana = +prompt('A number', '');
+
+// console.log(nana);
+// //NaN
+
+
+// let games = [];
+
+// for (let i = 0; i < 5; i++) {
+//     games[i] = prompt(`enter games`); 
+// }
+
+// console.log(games);
+
+
+
