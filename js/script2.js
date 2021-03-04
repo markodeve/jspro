@@ -781,4 +781,125 @@
 // let cloneStudents = Object.assign({}, Students);
 
 
+// let employees = {};
+
+// let firstStackEmployee = {
+//     name2: 'David',
+//     experience2: 10
+// };
+
+// let secondStackEmployee = {
+//     name: 'Boris',
+//     experience: 7
+// };
+
+// Object.assign(employees, firstStackEmployee, secondStackEmployee);
+
+// console.log(employees);
+
+
+
+//NESTED CLONING
+
+// let dishes = {
+//     name: 'Tofu',
+//     sizes: {
+//         large: 190,
+//         medium: 100
+//     }
+// };
+
+// // console.log(dishes.sizes.large);
+
+// let clone = Object.assign({}, dishes);
+
+// console.log(clone);
+
+// clone.sizes.large = 0;
+
+// console.log(dishes);
+
+
+//THIS THIS THIS THIS THIS 
+
+// let usa = {
+//     name: 'Fred',
+//     age: 101,
+//     SayHi() {
+//         console.log(this.name);
+//     }
+// };
+
+// usa.SayHi();
+
+
+// let Asia = {
+//     food: 'delicious',
+//     people: 'A lot',
+//     SayHello() {
+//         console.log(this.food);
+//     }
+// };
+
+// Asia.SayHello();
+// let Asia2 = Asia;
+// Asia = null;
+
+// Asia2.SayHello();
+
+// let Molo = {
+//     name: 'Milk',
+//     price: 19,
+//     change(a, b) {
+//         this.price += a;
+//         this.name = b;
+//     }
+// };
+
+// Molo.change(2100, 'Bread');
+
+// console.log(Molo);
+
+// let calculator = {
+//     read() {
+//        this.a = +prompt('first number', 0); 
+//        this.b = +prompt('second number', 0); 
+//     },
+//     sum() {
+//         return this.a + this.b;
+//     },
+//     mul() {
+//         return this.a * this.b;
+//     }
+
+// };
+
+// calculator.read();
+// console.log(calculator.sum());
+// console.log(calculator.mul());
+
+
+let Lesnisa = {
+    step: 0,
+    stepUp() {
+        this.step++;
+        return this;
+    },
+    stepDown() {
+        this.step--;
+        return this;
+    },
+    showStep() {
+        console.log(this.step);
+        return this;
+    }
+};
+
+// Lesnisa.stepUp();
+// Lesnisa.stepUp();
+// Lesnisa.stepUp();
+// Lesnisa.stepDown();
+// Lesnisa.showStep();
+
+Lesnisa.stepUp().stepUp().stepUp().showStep();
 
