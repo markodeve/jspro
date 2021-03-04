@@ -879,27 +879,29 @@
 // console.log(calculator.mul());
 
 
-let Lesnisa = {
-    step: 0,
-    stepUp() {
-        this.step++;
-        return this;
-    },
-    stepDown() {
-        this.step--;
-        return this;
-    },
-    showStep() {
-        console.log(this.step);
-        return this;
-    }
-};
+// let Lesnisa = {
+//     step: 0,
+//     stepUp() {
+//         this.step++;
+//         return this;
+//     },
+//     stepDown() {
+//         this.step--;
+//         return this;
+//     },
+//     showStep() {
+//         console.log(this.step);
+//         return this;
+//     }
+// };
 
-// Lesnisa.stepUp();
-// Lesnisa.stepUp();
-// Lesnisa.stepUp();
-// Lesnisa.stepDown();
-// Lesnisa.showStep();
+// // Lesnisa.stepUp();
+// // Lesnisa.stepUp();
+// // Lesnisa.stepUp();
+// // Lesnisa.stepDown();
+// // Lesnisa.showStep();
 
-Lesnisa.stepUp().stepUp().stepUp().showStep();
+// Lesnisa.stepUp().stepUp().stepUp().showStep();
+
+
 
