@@ -965,18 +965,73 @@
 // console.log( "Mul=" + calculator.mul() );
 
 
-function Accumulator(startingValue) {
-    this.value = startingValue;
+// function Accumulator(startingValue) {
+//     this.value = startingValue;
 
-    this.read = function() {
-        this.value += +prompt('number', '');
-    };
-
+//     this.read = function() {
+//         this.value += +prompt('number', '');
+//     };
 
    
-}
+// }
 
-let accumulator = new Accumulator(3);
-accumulator.read();
-accumulator.read();
-console.log(accumulator);
+// let accumulator = new Accumulator(3);
+// accumulator.read();
+// accumulator.read();
+// console.log(accumulator);
+
+
+// let user = {
+//     name: 'Phill',
+//     adress: {
+//         city: 'Mccalister',
+//         street: undefined
+//     }
+// };
+
+
+// let user = {};
+
+// console.log(user?.adress?.street);
+
+
+// let user = null;
+
+// console.log( user?.address );
+// console.log( user?.address.street );
+
+
+// let user = {
+//     admin() {
+//         console.log('I am administrator');
+//     }
+// };
+
+// let user2 = {};
+
+// user.admin?.();
+// user2.admin?.();
+
+
+// let Ahbaba = {
+//     salo: 'Tauala'
+// };
+
+// let Ahbaba3 = null;
+
+
+
+// let tefteli = 'salo';
+
+// console.log( Ahbaba?.[tefteli] ); 
+// console.log( Ahbaba3?.[tefteli] );
+
+
+// let ur = ['tomato', 'pickle', 'carrot'];
+
+// ur.push(['onion', 'garlic']);
+
+// console.log(ur);
+
+
+

@@ -13,3 +13,5 @@ arrow.addEventListener('click', () => {
 dots.addEventListener('click', () => {
     list.classList.toggle('lista');
 });
+
+
