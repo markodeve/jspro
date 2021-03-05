@@ -901,7 +901,82 @@
 // // Lesnisa.stepDown();
 // // Lesnisa.showStep();
 
+
+//WE ADD RETURN THIS; TO ACHIEVE THIS CHAIN HIERARCHY
 // Lesnisa.stepUp().stepUp().stepUp().showStep();
 
+// //FUNCTION CONSTRUCTOR
+
+// function Person(name) {
+//     this.name = name;
+//     this.isAdmin = false;
+// }
+
+// let user = new Person('Gand');
+
+// console.log(user);
 
 
+// function Gamer(level) {
+//     this.level = level;
+//     this.game = true;
+// }
+
+// let Markosh = new Gamer('Warrent officer 1');
+// let ChernigovGuy = new Gamer('Captain');
+
+// console.log(Markosh);
+// console.log(ChernigovGuy);
+// //CONSTRUCTION FUNCTION START FROM CAPITAL LETTER AS A GOLBAL AGREEMENT
+
+
+// function Potato(dish) {
+//     this.dish = dish;
+    
+//     this.giveDish = function() {
+//         console.log(`You will eat ${this.dish}`);
+//     };
+// } 
+
+// let fries = new Potato('Fries');
+
+// fries.giveDish();
+// console.log(fries);
+
+
+// function Calculator() {
+//     this.read = function() {
+//         this.a = +prompt('a', 0);
+//         this.b = +prompt('b', 0);
+//     };
+//     this.sum = function() {
+//         return this.a + this.b;
+//     };
+//     this.mul = function() {
+//         return this.a * this.b;
+//       };
+
+// }
+
+// let calculator = new Calculator();
+// calculator.read();
+
+// console.log( "Sum=" + calculator.sum() );
+// console.log( "Mul=" + calculator.mul() );
+
+
+function Accumulator(startingValue) {
+    this.value = startingValue;
+
+    this.read = function() {
+        this.value += +prompt('number', '');
+    };
+
+
+   
+}
+
+let accumulator = new Accumulator(3);
+accumulator.read();
+accumulator.read();
+console.log(accumulator);
