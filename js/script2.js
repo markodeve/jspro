@@ -1033,5 +1033,22 @@
 
 // console.log(ur);
 
+//SYMBOL
+
+// let id = Symbol('Dexter');
+
+// console.log(id);
+// // alert(id.toString());
+// console.log(id.description);
 
 
+
+let Pyramid = {
+    name: "Ehnaton"
+};
+
+let di = Symbol('di');
+
+Pyramid[di] = 1;
+
+console.log(Pyramid[di]);
