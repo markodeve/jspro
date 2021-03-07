@@ -1043,12 +1043,35 @@
 
 
 
-let Pyramid = {
-    name: "Ehnaton"
-};
+// let Pyramid = {
+//     name: "Ehnaton"
+// };
 
-let di = Symbol('di');
+// let di = Symbol('di');
 
-Pyramid[di] = 1;
+// Pyramid[di] = 1;
 
-console.log(Pyramid[di]);
+// console.log(Pyramid[di]);
+
+// let objInit = {
+//     name: 'Paul',
+//     youtube: 'Languages'
+// };
+
+// let objInit2 = {
+//     name: 'George',
+//     present: 'Jacket'
+// };
+
+// let Com = objInit + objInit2;
+
+// let Chess = (obj) => {
+//     if (obj) {
+//         console.log('Klubnichka perechnaya');
+//     } else {
+//         console.log('Chili from Oliver');
+//     }
+// };
+
+// Chess(objInit);
+
