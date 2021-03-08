@@ -156,3 +156,89 @@ body {
 .lista {
     display: block;
 }
+
+/* SUPER */
+
+.header {
+    height: 75px;
+    background-color: rgb(24, 31, 43);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.con {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+  
+}
+
+.cool {
+    background-color: rgb(25, 58, 114);
+    height: 45px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    transition: all .5s;
+    padding: 0 15px;
+}
+
+.cool_closed {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    justify-content: center;
+   
+}
+
+.elem_hidden {
+    display: none;
+    opacity: 0;
+    transition: .5s all;
+}
+
+.cool i {
+    font-size: 25px;
+    color:  rgb(95, 158, 201);
+    position: relative;
+    opacity: 1;
+    transition: 1s all;
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+
+.cool i:hover {
+    color:  rgb(148, 212, 255);
+    transition: all .5s;
+}
+
+
+
+ .cool i:hover:after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: rgba(162, 155, 179, .2);
+    display: block;
+    position: absolute;
+    top: -22%;
+    left: -30%;
+    z-index: -1;
+    transition: all .5s;
+} 
+
+.cool i:nth-child(2):hover:after, .cool i:nth-child(5):hover:after {
+    left: -20%;
+}
+
+.arrow_turn {
+    transform: rotate(180deg);
+}
