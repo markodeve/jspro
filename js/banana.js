@@ -20,7 +20,7 @@ const cool = document.querySelector('.cool'),
     ico = document.querySelectorAll('.elem_ic'),
     arrow = document.querySelector('.elem_ic1');
 
-cool.addEventListener('click', () => {
+arrow.addEventListener('click', () => {
     cool.classList.toggle('cool_closed');
     for(let i = 0; i < ico.length; i++) {
         ico[i].classList.toggle('elem_hidden');

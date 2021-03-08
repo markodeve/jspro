@@ -1075,3 +1075,35 @@
 
 // Chess(objInit);
 
+// let Onions = ["White", "Green", "Yellow", "Brown", "Purple"];
+
+// Onions.forEach((item, index) => {
+    
+// });
+
+
+// const Garlics = ['Hot', 'Spicy', 'Strong'];
+
+// const X = Garlics.map((item) => {
+//     return item.slice(0, 2);
+// });
+
+// console.log(X);
+
+
+// const grass = ['Green', 'Allen', 'Summer', 'Koosi', 'zozozozozozozo', 'zazazazaza', 'Dor'];
+
+// const List = grass.filter((item) => {
+//     return item.length < 9;
+// });
+
+// console.log(List);
+
+
+const tomatoes = [1, 2, 3];
+
+tomatoes.reduce((result, item) => {
+    return result + item;
+}, 0);
+
+

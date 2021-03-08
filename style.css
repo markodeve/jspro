@@ -212,6 +212,14 @@ body {
     z-index: 3;
 }
 
+.elem_ic1 {
+    color:  rgb(148, 212, 255) !important;
+}
+
+.elem_ic1:hover {
+    color:  rgb(95, 158, 201) !important;
+}
+
 
 
 .cool i:hover {
