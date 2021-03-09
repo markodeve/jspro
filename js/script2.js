@@ -1100,10 +1100,28 @@
 // console.log(List);
 
 
-const tomatoes = [1, 2, 3];
+// const tomatoes = [1, 2, 3];
 
-tomatoes.reduce((result, item) => {
-    return result + item;
-}, 0);
+// tomatoes.reduce((result, item) => {
+//     return result + item;
+// }, 0);
+
+
+
+// let food = [['apples-', 'pears-', 'strawberries-'],
+//             ['tomatoes-', 'onions-', 'garlic-'],
+//             ['tofu-', 'soya-', 'oil-']];
+
+
+// const gooder = food.map((item) => {
+//     for(let i = 0; i < item.length; i++) {
+//         let naew = [];
+//         let fix = item[i];
+//         naew.push(fix);
+        
+//     }
+    
+// });
+
 
 
