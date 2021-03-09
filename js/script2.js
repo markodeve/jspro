@@ -1124,4 +1124,74 @@
 // });
 
 
+// let amb = ['amb1', 'amb2', 'amb3'];
+
+// amb.push('amb5');
+// amb.unshift('amb0.1');
+
+
+// console.log(amb);
+
+
+
+// let foodList1 = ['onion', 'garlic', 'tomatoes'],
+//     foodList2 = ['eggs', 'noodles', 'nuts'];
+
+// let totalFoodList = foodList1.concat(foodList2);
+
+
+
+// let userGroup = [
+//     ['user1-', 'user2-', 'user3-'],
+//     ['user5-', 'user6-', 'user7-'], 
+//     ['user8-', 'user9-', 'user10-'],
+//     ['user11-', 'user12-', 'user15-']
+// ];
+
+
+// let fix = (userGroup.flat().map(item => item.slice(0, -1)));
+// console.log(fix);
+
+// console.log(fix.join(""));
+
+
+// let veg = ['onions', 'tomatoes', 'noodles', 'garlics', 'tofu'];
+
+// let randomVeg = Math.floor(Math.random() * 5);
+
+// console.log(veg[randomVeg]);
+
+
+// let food = ['Burgers', 'Hot-dogs', 'Steak', 'Salad', 'Banana', 'Bread'];
+// let price = ['100$', '190$', '280$'];
+// let comment = ['Bon appetit!', 'Eat it with pleasure!', 'Come back soon!'];
+
+// let randomFood = food[Math.floor(Math.random() * food.length)];
+// let randomPrice = price[Math.floor(Math.random() * 3)];
+// let randomComment = comment[Math.floor(Math.random() * 3)];
+
+// console.log(`Your order is: ${randomFood}. The price to pay is: ${randomPrice}. ${randomComment}`);
+
+// let names = ['Eater', 'Gron', 'Pol', 'Gnis', 'Gap'];
+// let food = ['burgers', 'salad', 'hot-dogs', 'pizza', 'rice'];
+// let tool = ['fork', 'spoon', 'knife', 'stick'];
+// let des = ['yummy', 'good', 'super', 'amazing', 'awesome', 'delicious'];
+// let sauce = ['mustard', 'ketchup', 'tartar', 'aglioli', 'mayonnaise'];
+
+// let randFood = food[Math.floor(Math.random() * food.length)];
+// let randtool = tool[Math.floor(Math.random() * tool.length)];
+// let randDes = des[Math.floor(Math.random() * des.length)];
+// let randSauce = sauce[Math.floor(Math.random() * sauce.length)];
+// let randName = names[Math.floor(Math.random() * names.length)];
+
+// let res = `Hello! We will call you ${randName}. Look ${randName}, 
+// we advice you to eat ${randFood} today. You know why? Because it's very ${randDes}!
+// We advice you to eat it with ${randtool} and with ${randSauce} sauce!`;
+
+// console.log(res);
+
+
+
+
+
 
