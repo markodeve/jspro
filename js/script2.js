@@ -1190,7 +1190,13 @@
 
 // console.log(res);
 
+let users = {
+    user9: 'Fil9',
+    user3: 'Fil3',
+    user115: 'Fil115',
+    user7: 'Fil7',
+    user1: 'Fil1'
+};
 
-
-
+console.log(users.sort());
 
