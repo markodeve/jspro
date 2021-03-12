@@ -1190,5 +1190,38 @@
 
 // console.log(res);
 
+// let bob = {
+//     age: '99',
+//     height: '185'
+// };
+
+// bob.food = "soup";
+// console.log(bob.food);
+
+// let cheeses = [
+//     {name: 'chedder', price: 20},
+//     {name: 'parmezan', price: 50},
+//     {name: 'dor-blu', price: 75},
+// ];
+
+// let orhidea = {
+//     name: 'Orhidea',
+//     quantity: 90,
+//     seasons: [1, 2, 3, 5, 7]
+// };
+// let tulip = {
+//     name: 'Tulip',
+//     quantity: 100,
+//     seasons: [3, 70, 30, 17]
+// };
+// let chamomile = {
+//     name: 'Сhamomile',
+//     quantity: 190,
+//     seasons: [1, 8, 3, 1, 7]
+// };
+
+// const flowers = [orhidea, tulip, chamomile];
+
+// console.log(flowers[0].seasons[0]);
 
 

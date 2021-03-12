@@ -164,6 +164,7 @@ body {
     background-color: rgb(24, 31, 43);
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .con {
