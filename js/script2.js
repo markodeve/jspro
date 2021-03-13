@@ -1320,3 +1320,21 @@
 //     pos = foundPos + 1;
 // }
 
+// let dos = 'Did Mark Nunez made the world record of eating hot peppers?';
+
+// let inform = (str) => {
+//     if (str.includes('peppers')) {
+//         console.log('Yes, peppers included');
+//     } 
+//     else {
+//         console.log('Peppers are not included');
+//     }
+// };
+
+// inform(dos);
+
+
+let lod = "I don't know what you head about me";
+
+console.log(lod.startsWith('I'));
+console.log(lod.endsWith('e'));
