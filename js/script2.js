@@ -1225,3 +1225,98 @@
 // console.log(flowers[0].seasons[0]);
 
 
+//SET TIMEOUT
+
+// const serverLoading = setTimeout(() => {
+//     console.log('Server loading...');
+// }, 100);
+
+// const serverLoaded = setTimeout((text) => {
+//     console.log(text);
+// }, 3000, 'Server loaded');
+
+
+// const timerId = setTimeout(logger, 2000);
+
+// clearInterval(timerId);
+
+// function logger () {
+//     console.log('text');
+// }
+
+
+// for (var n = 2; n < 10000; n *= 2) {
+//     console.log(n);
+//    }
+
+// let p = 2;
+// while (p < 10000) {
+//     console.log(p);
+//     p *= 2;
+// }
+
+// let beautifulAnimals = ['cat', 'dog', 'bird', 'parrot', 'leon'];
+
+// for (let i = 0; i < beautifulAnimals.length; i++) {
+//     console.log(beautifulAnimals[i] += ' is a beautiful animal');
+// }
+
+
+// let alphabet = 'abcdefghijklmnopqrstuwxyz';
+
+// let randomString = "";
+
+// while(randomString.length < 5) {
+//     randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+    
+// }
+
+// console.log(randomString);
+
+
+// var input = "javascript is osem";
+// var output = "";
+
+// for (let i = 0; i < input.length; i++) {
+//     if (input[i] == 'j') {
+//         output += '7';
+//     } else if (input[i] == 't') {
+//         output += '1';
+//     } else {
+//         output += input[i];
+//     }
+// }
+
+// console.log(output);
+
+
+// let dor = 'Hello what\'s up? this is a backslash: \\';
+
+// console.log(dor);
+
+
+
+// let obje = {
+//     name: 'user',
+//     word: 'hello',
+//     SayHello() {
+//      console.log(this.name += 'dor');
+//     }
+// };
+
+// let infoMa = "Regele manelelor manele meneleistu manele";
+
+// // console.log(infoMa.indexOf('manele'));
+
+// let target = "manele";
+
+// let pos = 0;
+
+// while (true) {
+//     let foundPos = infoMa.indexOf(target, pos);
+//     if (foundPos == -1) break;
+
+//     console.log(`Found here ${foundPos}`);
+//     pos = foundPos + 1;
+// }
+

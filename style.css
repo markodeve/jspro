@@ -254,3 +254,46 @@ body {
 
 
 /***************/
+
+
+.cluj {
+    min-height: 900px;
+    padding-top: 100px;
+}
+
+.cluj button {
+    display: block;
+    width: 300px;
+    background-color: mediumseagreen;
+    color: #fff;
+    padding: 20px 30px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.cluj button:hover {
+    background-color: mediumspringgreen;
+}
+
+.cluj button:active {
+    background-color:rgb(109, 219, 142);
+}
+
+.area {
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(44, 71, 2);
+    margin: 100px auto;
+    position: relative;
+    
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background-color: indianred;
+    position: absolute;
+}

@@ -29,3 +29,42 @@ arrow.addEventListener('click', () => {
     
 });
       
+/*************/
+
+const btn = document.getElementById('api');
+let timerId,
+    i = 0;
+
+
+function myAnimation() {
+    const elem = document.querySelector('.box');
+    let pos = 0;
+
+
+    const id = setInterval(frame, 10);
+    function frame() {
+        if (pos == 540) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + "px";
+            elem.style.left = pos + "px";
+        }
+    }
+}
+
+btn.addEventListener('click', myAnimation);
+
+
+// function logger () {
+//     if (i === 3) {
+//         clearInterval(timerId);
+//     }
+//     console.log('Loaded');
+//     i++;
+// }
+
+// let id = setTimeout(function log() {
+//     console.log('Pos');
+//     id = setTimeout(log, 5000);
+// }, 500);
