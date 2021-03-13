@@ -1334,7 +1334,54 @@
 // inform(dos);
 
 
-let lod = "I don't know what you head about me";
+// let lod = "I don't know what you head about me";
 
-console.log(lod.startsWith('I'));
-console.log(lod.endsWith('e'));
+// console.log(lod.startsWith('I'));
+// console.log(lod.endsWith('e'));
+
+
+
+
+// let poa = 'vardamaleus';
+
+// console.log(poa.slice(3, 7));
+
+// console.log(poa.substring(7, 3));
+
+// console.log(poa.substr(3, 4));
+
+// let capFl = (word) => {
+//     return word[0].toUpperCase() + word.slice(1);
+    
+// };
+
+// capFl('dor');
+
+
+// let checkSpam = (string) => {
+//     let spam = string.toLowerCase();
+//     return (spam.includes('viagra') || spam.includes('xxx'));
+    
+// };
+
+
+// let trunCat = (string, max) => {
+//    return (string.length > max) ? string.slice(0, max - 1) + '…' : string;
+// };
+
+// trunCat('Vardas has sent os to you', 15);
+
+// let extractCurrencyValue = (price) => {
+//     return +price.slice(1);
+//     }; 
+
+// let fun = [1, 3, 5, function Door() {
+//     console.log('door');
+// }];
+
+
+let door = ['swift', 'api', 'log', '_logs'];
+
+door.push('web_socket_spray');
+
+console.log(door);
