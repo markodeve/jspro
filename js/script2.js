@@ -1463,4 +1463,9 @@
 
 // console.log(styles);
 
+// let arr = ['Lecco', 'Bergamo', 'Padova', 'Bologna', 'Genova'];
+
+// arr.splice(2, 0, 'Roma', 'Pisa');
+
+// console.log(arr);
 
