@@ -1386,3 +1386,81 @@
 
 // console.log(door);
 
+// let via = ['Cintinelli', 'Rossi', 'Gocci'];
+
+// let viaCurrent = via.pop();
+
+// console.log(viaCurrent);
+
+// via.unshift('Galli', 'Dossi', 'Alli');
+
+// console.log(via);
+
+// let ulan = {
+//     ulan1: 'Dor',
+//     ulan2: 'Pol',
+//     ulan3: 'Vis'
+// };
+
+// let naam = Object.values(ulan);
+
+// console.log(naam);
+
+// let bio = {
+//     name: 'Min',
+//     surname: 'zhao',
+//     age: 99,
+// };
+
+// for (const i in bio) {
+//     console.log(`${i} ${bio[i]}`);
+// }
+
+// let city = ['Modena', 'Parma'];
+
+// let alternate = city;
+
+// alternate[0] = 'Fidenza';
+
+// console.log(city);
+
+// let citta = ['Modena', 'Parma', 'Fidenza'];
+
+// for (let i in citta) {
+//     console.dir(citta[i]);
+// }
+
+
+// let sheeps = [true, true, true, true, true, false, true, true, false];
+
+// function countSheeps(arrayOfSheep) {
+//     let count = 0;
+//     let uncount = 0;
+//     for (let i = 0; i < arrayOfSheep.length; i++) {
+//         if (arrayOfSheep[i]) {
+//             count += 1;
+//         } else {
+//             uncount += 1;
+//         }
+//     }
+//     console.log('Sheeps found: ' + count);
+//     console.log('Sheeps not found: ' + uncount);
+//    return count, uncount; 
+//   }
+//     countSheeps(sheeps);
+  
+
+// let styles = ['Jazz', 'Blues'];
+
+// styles.push('Rock-n-roll');
+
+// styles[1] = 'Classic';
+
+
+// styles.shift(0);
+
+// styles.unshift('Rap', 'Raggea')
+
+// console.log(styles);
+
+
