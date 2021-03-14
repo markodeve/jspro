@@ -1494,3 +1494,19 @@
 
 // alert(`cycle worled for ${end - start} ms`);
 
+// let arr = ['banana', 'pineapple', 'apple', 'pear', 'strawberry'];
+
+// let result = arr.map((item) => {
+//     return item += 's';
+// });
+
+// console.log(result);
+
+
+
+
+
+
+
+
+
