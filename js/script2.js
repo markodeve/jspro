@@ -1502,12 +1502,25 @@
 
 // console.log(result);
 
+// let str = 'testo';
+
+// console.log(str.split(""));
 
 
+// let par = ['Tuki', 'Koosi', 'Dor', 'Lar', 'Bar'];
+
+// let str = par.join(', ');
+
+// console.log(str);
+
+// let numb = [100, 200, 300, 500, 700];
+
+// let result = numb.reduce((sum, current) => {
+//     return sum + current;
+// }, 0);
 
 
-
-
+// console.log(result);
 
 
 
