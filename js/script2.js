@@ -1123,23 +1123,17 @@
     
 // });
 
-
 // let amb = ['amb1', 'amb2', 'amb3'];
 
 // amb.push('amb5');
 // amb.unshift('amb0.1');
 
-
 // console.log(amb);
-
-
 
 // let foodList1 = ['onion', 'garlic', 'tomatoes'],
 //     foodList2 = ['eggs', 'noodles', 'nuts'];
 
 // let totalFoodList = foodList1.concat(foodList2);
-
-
 
 // let userGroup = [
 //     ['user1-', 'user2-', 'user3-'],
@@ -1148,19 +1142,16 @@
 //     ['user11-', 'user12-', 'user15-']
 // ];
 
-
 // let fix = (userGroup.flat().map(item => item.slice(0, -1)));
 // console.log(fix);
 
 // console.log(fix.join(""));
-
 
 // let veg = ['onions', 'tomatoes', 'noodles', 'garlics', 'tofu'];
 
 // let randomVeg = Math.floor(Math.random() * 5);
 
 // console.log(veg[randomVeg]);
-
 
 // let food = ['Burgers', 'Hot-dogs', 'Steak', 'Salad', 'Banana', 'Bread'];
 // let price = ['100$', '190$', '280$'];
