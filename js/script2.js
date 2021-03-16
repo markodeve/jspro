@@ -929,7 +929,6 @@
 // console.log(ChernigovGuy);
 // //CONSTRUCTION FUNCTION START FROM CAPITAL LETTER AS A GOLBAL AGREEMENT
 
-
 // function Potato(dish) {
 //     this.dish = dish;
     
@@ -964,7 +963,6 @@
 // console.log( "Sum=" + calculator.sum() );
 // console.log( "Mul=" + calculator.mul() );
 
-
 // function Accumulator(startingValue) {
 //     this.value = startingValue;
 
@@ -972,14 +970,12 @@
 //         this.value += +prompt('number', '');
 //     };
 
-   
 // }
 
 // let accumulator = new Accumulator(3);
 // accumulator.read();
 // accumulator.read();
 // console.log(accumulator);
-
 
 // let user = {
 //     name: 'Phill',
@@ -989,17 +985,14 @@
 //     }
 // };
 
-
 // let user = {};
 
 // console.log(user?.adress?.street);
-
 
 // let user = null;
 
 // console.log( user?.address );
 // console.log( user?.address.street );
-
 
 // let user = {
 //     admin() {
@@ -1011,7 +1004,6 @@
 
 // user.admin?.();
 // user2.admin?.();
-
 
 // let Ahbaba = {
 //     salo: 'Tauala'
