@@ -1244,7 +1244,6 @@
 //     console.log('text');
 // }
 
-
 // for (var n = 2; n < 10000; n *= 2) {
 //     console.log(n);
 //    }
@@ -1289,12 +1288,9 @@
 
 // console.log(output);
 
-
 // let dor = 'Hello what\'s up? this is a backslash: \\';
 
 // console.log(dor);
-
-
 
 // let obje = {
 //     name: 'user',
@@ -1333,14 +1329,10 @@
 
 // inform(dos);
 
-
 // let lod = "I don't know what you head about me";
 
 // console.log(lod.startsWith('I'));
 // console.log(lod.endsWith('e'));
-
-
-
 
 // let poa = 'vardamaleus';
 
