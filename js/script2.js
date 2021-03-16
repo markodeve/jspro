@@ -1522,3 +1522,20 @@
 
 // console.log(result);
 
+// console.log('10' / '5'); //NaN
+
+// console.log('Peter' / 2); //NaN
+
+// let naame = prompt('name', '');
+
+// console.log(`Hello ${naame}`);
+
+
+// let nol = null;
+
+// let nasa = String(nol);
+
+// console.log(nasa);
+
+
+
