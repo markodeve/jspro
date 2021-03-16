@@ -1019,13 +1019,10 @@
 
 // let Ahbaba3 = null;
 
-
-
 // let tefteli = 'salo';
 
 // console.log( Ahbaba?.[tefteli] ); 
 // console.log( Ahbaba3?.[tefteli] );
-
 
 // let ur = ['tomato', 'pickle', 'carrot'];
 
@@ -1040,8 +1037,6 @@
 // console.log(id);
 // // alert(id.toString());
 // console.log(id.description);
-
-
 
 // let Pyramid = {
 //     name: "Ehnaton"
@@ -1081,7 +1076,6 @@
     
 // });
 
-
 // const Garlics = ['Hot', 'Spicy', 'Strong'];
 
 // const X = Garlics.map((item) => {
@@ -1090,7 +1084,6 @@
 
 // console.log(X);
 
-
 // const grass = ['Green', 'Allen', 'Summer', 'Koosi', 'zozozozozozozo', 'zazazazaza', 'Dor'];
 
 // const List = grass.filter((item) => {
@@ -1098,7 +1091,6 @@
 // });
 
 // console.log(List);
-
 
 // const tomatoes = [1, 2, 3];
 
