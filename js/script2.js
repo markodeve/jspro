@@ -1449,13 +1449,11 @@
 //   }
 //     countSheeps(sheeps);
   
-
 // let styles = ['Jazz', 'Blues'];
 
 // styles.push('Rock-n-roll');
 
 // styles[1] = 'Classic';
-
 
 // styles.shift(0);
 
@@ -1519,7 +1517,6 @@
 //     return sum + current;
 // }, 0);
 
-
 // console.log(result);
 
 // console.log('10' / '5'); //NaN
@@ -1529,7 +1526,6 @@
 // let naame = prompt('name', '');
 
 // console.log(`Hello ${naame}`);
-
 
 // let nol = null;
 
