@@ -762,7 +762,6 @@
 // console.log(Pishta);
 // console.log(clone);
 
-
 // let user = { name: "Salo" };
 
 // let permissions1 = { canView: true };
@@ -780,7 +779,6 @@
 // //WE CLONE LIKE THIS NOW. WILL COPY TO EMPTY OBJECT AND WILL RETURN IT
 // let cloneStudents = Object.assign({}, Students);
 
-
 // let employees = {};
 
 // let firstStackEmployee = {
@@ -796,8 +794,6 @@
 // Object.assign(employees, firstStackEmployee, secondStackEmployee);
 
 // console.log(employees);
-
-
 
 //NESTED CLONING
 
@@ -818,7 +814,6 @@
 // clone.sizes.large = 0;
 
 // console.log(dishes);
-
 
 //THIS THIS THIS THIS THIS 
 
@@ -878,7 +873,6 @@
 // console.log(calculator.sum());
 // console.log(calculator.mul());
 
-
 // let Lesnisa = {
 //     step: 0,
 //     stepUp() {
@@ -901,7 +895,6 @@
 // // Lesnisa.stepDown();
 // // Lesnisa.showStep();
 
-
 //WE ADD RETURN THIS; TO ACHIEVE THIS CHAIN HIERARCHY
 // Lesnisa.stepUp().stepUp().stepUp().showStep();
 
@@ -915,7 +908,6 @@
 // let user = new Person('Gand');
 
 // console.log(user);
-
 
 // function Gamer(level) {
 //     this.level = level;
