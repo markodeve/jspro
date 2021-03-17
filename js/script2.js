@@ -1492,4 +1492,40 @@
 
 // console.log(nasa);
 
+// let price = 10;
+// let burgers = +prompt('How many burgers do you want?', '');
+
+// if (burgers >= 100) {
+//     console.log('Processing order...');
+//     setTimeout(() => {
+//         console.log('Wow, ' + burgers + '! that a lot of burgers');
+//         console.log('Price to pay: ' + (burgers * price) + '$');
+//     }, 2000);
+    
+// } else if (burgers >= 50) {
+//     console.log('Processing order...');
+//     setTimeout(() => {
+//         console.log('Wow ' + burgers + '! that is pretty much burgers!');
+//         console.log('Price to pay: ' + (burgers * price) + '$');
+//     }, 2000);
+// } else if (burgers >= 10) {
+//     console.log('Processing order...');
+//    setTimeout(() => {
+//     console.log('Ok, you will get ' + burgers + ' burgers. But ' + burgers + ' is a lot!');
+//     console.log('Price to pay: ' + (burgers * price) + '$');
+//    }, 2000);
+// } else if (burgers >= 5) {
+//     console.log('Processing order...');
+//     setTimeout(() => {
+//         console.log('Good thanks! Are you sure you can eat ' + burgers + ' burgers?');
+//         console.log('Price to pay: ' + (burgers * price) + '$');
+//     }, 2000);
+// } else {
+//     console.log('Processing order...');
+//     setTimeout(() => {
+//         console.log('Ok, order of '+ burgers + ' burgers is recieved');
+//         console.log('Price to pay: ' + (burgers * price) + '$');
+//     }, 2000);
+// }
+
 
