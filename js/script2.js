@@ -1529,3 +1529,25 @@
 // }
 
 
+// const vox = document.querySelector('.vox');
+
+// const width = vox.clientWidth;
+// const height = vox.clientHeight;
+
+// const width = vox.offsetWidth;
+// const height = vox.offsetHeight;
+
+// const width = vox.scrollWidth;
+// const height = vox.scrollHeight;
+
+// console.log(width, height);
+
+var someObj = {
+    propName: "John"
+  };
+  function propPrefix(str) {
+    var s = "prop";
+    return s + str;
+  }
+  var someProp = propPrefix("Name");
+  console.log(someObj[someProp]);
