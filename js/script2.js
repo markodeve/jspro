@@ -1542,12 +1542,47 @@
 
 // console.log(width, height);
 
-var someObj = {
-    propName: "John"
-  };
-  function propPrefix(str) {
-    var s = "prop";
-    return s + str;
-  }
-  var someProp = propPrefix("Name");
-  console.log(someObj[someProp]);
+// let doo = ['pooh', 'copy', 'DHCP'];
+
+// for(let i = 0; i < doo.length; i++) {
+//     console.log(doo[i]);
+//     (doo[i] == 'copy') ? console.log('copy found') : false;
+// }
+
+// let https = ['DHCP', 'UDP', 'LED', 'SSL', 'SSH'];
+
+// for (let i = 0; i < https.length; i++) {
+    
+//     for (let j = 0; j < https[i].length; j++) {
+//         console.log(https[i][j]);
+        
+//     }
+// }
+
+// let numma = +prompt('enter a number', '');
+
+// if (numma > 0) {
+//     console.log(1);
+// } else if (numma == 0) {
+//     console.log(0);
+// } else {
+//     console.log(-1);
+// }
+
+let message;
+
+if (login == 'Сотрудник') {
+  message = 'Привет';
+} else if (login == 'Директор') {
+  message = 'Здравствуйте';
+} else if (login == '') {
+  message = 'Нет логина';
+} else {
+  message = '';
+}
+
+let message;
+
+(login == 'employee') ? message = 'Hi' :
+(login == 'director') ? message = 'good day' :
+(login == '') ? message = 'no login' : message = '';
