@@ -1569,20 +1569,26 @@
 //     console.log(-1);
 // }
 
-let message;
 
-if (login == 'Сотрудник') {
-  message = 'Привет';
-} else if (login == 'Директор') {
-  message = 'Здравствуйте';
-} else if (login == '') {
-  message = 'Нет логина';
-} else {
-  message = '';
-}
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 != 0) {
+//         console.log(i);
+//     }
+    
+// }
 
-let message;
+// let nummm = +prompt('enter a number');
 
-(login == 'employee') ? message = 'Hi' :
-(login == 'director') ? message = 'good day' :
-(login == '') ? message = 'no login' : message = '';
+// let fizzBuzz = (num) => {
+    
+//     for (let i = 0; i < num; i++) {
+//         if (num[i] % 3 == 0) {
+//             num[i] = 'Fizz';
+//         } else if (num[i] % 5 == 0) {
+//             num[i] = 'Buzz';
+//         }     
+//     }
+    
+// };
+
+// fizzBuzz(nummm);
