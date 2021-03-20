@@ -1593,5 +1593,29 @@
 
 // fizzBuzz(nummm);
 
+const vox = document.querySelector('.vox');
 
+let width = vox.clientWidth;
+let height = vox.clientHeight;
+
+// const width = vox.offsetWidth;
+// const height = vox.offsetHeight;
+
+// let width = vox.scrollWidth;
+// const height = vox.scrollHeight;
+
+const btn = document.getElementById('btn');
+
+// console.log(vox.getBoundingClientRect().top);
+
+
+// GET CSS STYLES
+const style = window.getComputedStyle(vox);
+
+// console.log(style.display);
+
+const show = document.querySelector('.show');
+
+
+console.log(document.documentElement.scrollTop);
 
