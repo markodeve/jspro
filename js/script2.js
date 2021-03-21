@@ -1775,6 +1775,14 @@
 // console.log(Pataya.calcArea());
 // console.log(Kochang.calcArea());
 
+// const log = function(a, b, ...rest) {
+//    console.log(a, b, rest);   
+// };
 
+// log('basic', 'rest', 'pa', 'restlogftch', 'Menelu');
 
+// function calcOrCheesburger(number, basis = 2) {
+//     console.log(number * basis);
+// }
 
+// calcOrCheesburger(3);
