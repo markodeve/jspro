@@ -1735,3 +1735,46 @@
 // const cheeseBurger2 = a => a * 2;
 
 // console.log(cheeseBurger2(90));
+
+
+
+
+//ES6 CLASSES
+
+// class Poloa {
+//     constructor(locationX, locationY) {
+//         this.locationX = locationX;
+//         this.locationY = locationY;
+//     }
+
+//     calcArea() {
+//         return this.locationX * this.locationY;
+//     }
+// }
+
+// class PalmPresenceInfo extends Poloa {
+//     constructor (locationX, locationY, text, palm) {
+//         super(locationX, locationY); //takes from class by hierarchy, should be on top
+//         this.text = text;
+//         this.palm = palm;
+//     }
+//     showMyProps() {
+//         console.log(`Text: ${this.text}, palms: ${this.palm}`)
+//     }
+// }
+
+
+// const boPhut = new PalmPresenceInfo(100, 200, 'Resort', true);
+
+// boPhut.showMyProps();
+// console.log(boPhut.calcArea());
+
+// const Pataya = new Poloa(100, 100); 
+// const Kochang = new Poloa(50, 50);
+
+// console.log(Pataya.calcArea());
+// console.log(Kochang.calcArea());
+
+
+
+
