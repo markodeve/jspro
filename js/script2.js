@@ -1622,26 +1622,116 @@
 
 //CONSTRUCTOR FUNCTIONS AND PROTOTYPE
 
-function User(name, id) {
-    this.name = name;
-    this.id = id;
-    this.human = true;
-    this.hello = function() {
-       console.log(`Hello ${this.name}`); 
-    };
-}
+// function User(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.human = true;
+//     this.hello = function() {
+//        console.log(`Hello ${this.name}`); 
+//     };
+// }
 
-User.prototype.eat = function() {
-    console.log(`User ${this.name} has eaten`);
-};
+// User.prototype.eat = function() {
+//     console.log(`User ${this.name} has eaten`);
+// };
 
-const dor = new User('Dor', 98);
-const pid = new User('Pid', 91);
+// const dor = new User('Dor', 98);
+// const pid = new User('Pid', 91);
 
-dor.eat();
+// dor.eat();
 
-dor.hello();
-pid.hello();
+// dor.hello();
+// pid.hello();
 
-console.log(dor);
-console.log(pid);
+// console.log(dor);
+// console.log(pid);
+
+
+//CALL CONTEXT
+
+// function showThis(a, b) {
+//     console.log(this);
+//     function sum() {
+//         console.log(this);
+//         return a + b;
+//     }
+//     console.log(sum());
+// }
+
+// showThis(10, 5);
+
+// const obj = {
+//     a: 20,
+//     b: 100,
+//     sum: function() {
+//         function shout() {
+//             console.log(this);
+//         }
+//         shout();
+//     }
+// };
+
+// obj.sum();
+
+// function Pos(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.human = true;
+// }
+
+// let Chan = new Pos('Chan', 89);
+
+
+
+// function sayName(surname) {
+//     console.log(this);
+//     console.log(this.name + surname);
+// }
+
+// const useer = {
+//     name: 'Gov'
+// };
+
+// sayName.call(useer, 'Dor');
+// sayName.apply(useer, ['Dor']);
+
+// function count(num) {
+//     return this * num;
+// }
+
+// const cheeseBurger = count.bind(2);
+// console.log(cheeseBurger(3));
+// console.log(cheeseBurger(100));
+
+// 1) SIMPLE FUNCTION: THIS = WINDOW, BUT WITH USE STRICT WILL BE UNDEFINED.
+// 2) CONTEXT OF OBJECT METHODS WILL BE THE OBJECT
+// 3) THIS IN CONSTRUCTORS AND CLASSES IS A NEW OBJECT EXEMPLAR
+// 5) HAND BINDING THIS: CALL, APPLY, BIND
+
+// const btn = document.querySelector('button');
+
+// btn.addEventListener('click', function(){
+//     this.style.backgroundColor = 'yellow';
+// });
+
+// btn.addEventListener('click', (e) => {
+//     e.target.style.backgroundColor = 'yellow';
+//     console.log(e.target);
+// });
+
+// const obj = {
+//     num: 5,
+//     sayNumber: function() {
+//         const say = () => {
+//             console.log(this.num);
+//         };
+
+//         say();
+//     }
+// };
+
+// obj.sayNumber();
+
+// const cheeseBurger2 = a => a * 2;
+
+// console.log(cheeseBurger2(90));

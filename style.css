@@ -263,3 +263,10 @@ body {
     margin: 100px auto;
 }
 
+button {
+    width: 100px;
+    height: 100px;
+    background-color: dimgrey;
+    display: block;
+    margin: 0 auto;
+}
