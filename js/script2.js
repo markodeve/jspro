@@ -1593,10 +1593,10 @@
 
 // fizzBuzz(nummm);
 
-const vox = document.querySelector('.vox');
+// const vox = document.querySelector('.vox');
 
-let width = vox.clientWidth;
-let height = vox.clientHeight;
+// let width = vox.clientWidth;
+// let height = vox.clientHeight;
 
 // const width = vox.offsetWidth;
 // const height = vox.offsetHeight;
@@ -1604,18 +1604,44 @@ let height = vox.clientHeight;
 // let width = vox.scrollWidth;
 // const height = vox.scrollHeight;
 
-const btn = document.getElementById('btn');
+// const btn = document.getElementById('btn');
 
 // console.log(vox.getBoundingClientRect().top);
 
 
 // GET CSS STYLES
-const style = window.getComputedStyle(vox);
+// const style = window.getComputedStyle(vox);
 
 // console.log(style.display);
 
-const show = document.querySelector('.show');
+// const show = document.querySelector('.show');
 
 
-console.log(document.documentElement.scrollTop);
+// console.log(document.documentElement.scrollTop);
 
+
+//CONSTRUCTOR FUNCTIONS AND PROTOTYPE
+
+function User(name, id) {
+    this.name = name;
+    this.id = id;
+    this.human = true;
+    this.hello = function() {
+       console.log(`Hello ${this.name}`); 
+    };
+}
+
+User.prototype.eat = function() {
+    console.log(`User ${this.name} has eaten`);
+};
+
+const dor = new User('Dor', 98);
+const pid = new User('Pid', 91);
+
+dor.eat();
+
+dor.hello();
+pid.hello();
+
+console.log(dor);
+console.log(pid);
