@@ -1786,3 +1786,23 @@
 // }
 
 // calcOrCheesburger(3);
+
+//JSON 
+
+// const persone = {
+//     name: 'Lyod',
+//     tel: '+0000000',
+//     orders: {
+//         vegetable: 'Tomato',
+//         liquid: 'Olive oil'
+//     }
+// };
+
+// //DEEP CLONING
+// const coool = JSON.parse(JSON.stringify(persone));
+
+// coool.orders.vegetable = 'Radish';
+
+
+// console.log(coool);
+// console.log(persone);
