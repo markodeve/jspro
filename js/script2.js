@@ -1806,3 +1806,14 @@
 
 // console.log(coool);
 // console.log(persone);
+
+// let loa = ['a', 'b', 'c', 'd', 'e'];
+
+// for (let i = 0; i < loa.length; i++) {
+    
+//     if(loa[i] == 'd') {
+//         continue;
+//     }
+
+//     console.log(loa[i]);
+// }
