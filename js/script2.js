@@ -1828,3 +1828,17 @@
 //     console.log(talo, salo);
 // }
 
+let asa = () => {
+    
+    let count = 0;
+    for (let i = 0; i < 10; i++) {
+       prompt('enter, 10 times');
+       count++;
+       console.log(i);        
+    }
+
+    return count;
+
+    
+};
+
