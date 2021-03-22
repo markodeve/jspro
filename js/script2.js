@@ -1817,3 +1817,14 @@
 
 //     console.log(loa[i]);
 // }
+
+// function Dor(dor, name = 'Dor') {
+//     console.log('hello' + dor + name);
+// }
+
+// function Show(talo, salo = function() {
+//     return console.log('second argument was not added');
+// }) {
+//     console.log(talo, salo);
+// }
+
