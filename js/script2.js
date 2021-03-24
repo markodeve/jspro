@@ -1841,5 +1841,14 @@
 
 // };
 
+// function saydor() {
+//     console.log('dor');
+// }
+
+// let fun = saydor;
+
+// fun();
+// sayhi();
+
 
 
