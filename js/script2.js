@@ -1851,4 +1851,121 @@
 // sayhi();
 
 
+// function ask(qwaha, yes, no) {
+//     if (confirm(qwaha)) yes();
+//     else no();
+// }
 
+// function showOk() {
+//     console.log('you Harry');
+// }
+
+// function Dart() {
+//     console.log('You are Dart');
+// }
+
+// ask('You are Harry or Dart?', showOk, Dart);
+
+// function Darting(value, logic, physics) {
+//     let inee = prompt(value);
+//     if (inee) {
+//         logic();
+//         console.log(`So it's ${inee}`);
+//     } else {
+//         physics();
+//     }
+// }
+
+// function contextLogic() {
+//     console.log('Logic API context extends');
+   
+// }
+
+// function physicsMatrixClient() {
+//     console.log('Fetchable renaming log phys');
+// }
+
+// Darting('Logical expresser', contextLogic, physicsMatrixClient);
+
+// function agent(email, client, utility) {
+//     let mail = confirm(email);
+//     if (mail) {
+//         client();
+//         console.log(`delay storage field comparison retrieves ${mail}`);
+//     } else {
+//         utility();
+//     }
+// }
+
+// function dataArchitecture() {
+//     console.log('Task recasting...');
+//     setTimeout(() => {
+//         console.log('Remote service library-based');
+//     }, 1000);
+// }
+
+// function publicToken() {
+//     console.log('Specification class source binary');
+// }
+
+// agent('Provider path state transfer', dataArchitecture, publicToken);
+
+
+// function runtimeAccess(embedded, fledged, linking) {
+//     if (confirm(embedded)) {
+//         fledged();
+//     } else {
+//         linking();
+//     }
+// }
+
+// runtimeAccess(
+//     'Runtime advanced',
+//     function() {console.log('interpreter-based code'); },
+//     function() {console.log('acceleration chip'); }
+// );
+
+
+
+
+// let mvc = 1000;
+// let automate;
+// if (mvc > 100) {
+    
+//    automate = function automate() {
+//         console.log('mapping subcommand');
+//     };
+   
+// } else {
+//     automate = function automate() {
+//         console.log('task stream');
+//     };
+// }
+
+// automate();
+
+
+// let dynamic = prompt('component input', '');
+
+// let dataRender = (dynamic < 900) ?
+//     function() { console.log('market share'); } :
+//     function() { console.log('environment log controller'); };
+
+// dataRender();
+
+// let viewVariant = prompt('Pattern reuse set channel route', '');
+
+// let stateEncap = (viewVariant == 17000) ?
+//     function () { console.log('object interchangable'); } :
+//     function () { console.log('defines algorythm optimized'); };
+
+// stateEncap();
+
+
+let invocalLoad = prompt('Implement async suitable', 19000);
+
+let extanceArch = (invocalLoad >= 19000) ?
+    function () { console.log('Portable class EX'); } :
+    function () { console.log('Runtime query model'); };
+
+extanceArch();
