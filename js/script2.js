@@ -1962,10 +1962,34 @@
 // stateEncap();
 
 
-let invocalLoad = prompt('Implement async suitable', 19000);
+// let invocalLoad = prompt('Implement async suitable', 19000);
 
-let extanceArch = (invocalLoad >= 19000) ?
-    function () { console.log('Portable class EX'); } :
-    function () { console.log('Runtime query model'); };
+// let extanceArch = (invocalLoad >= 19000) ?
+//     function () { console.log('Portable class EX'); } :
+//     function () { console.log('Runtime query model'); };
 
-extanceArch();
+// extanceArch();
+
+// let duplexGenerate = 11;
+
+// let sendComponent;
+
+// if (duplexGenerate == 10) {
+//     sendComponent = function() {
+//         console.log('Basis websocket');
+//     };
+// } else {
+//     sendComponent = function() {
+//         console.log('Protocol cleartext');
+//     };
+// }
+
+// sendComponent();
+
+// let transEstablish = prompt('Hostname registry', 19000);
+
+// let domainCertificate = (transEstablish >= 19000) ?
+//     function() { console.log('Adress explicit'); } :
+//     function() { console.log('Encryption role'); };
+
+//     domainCertificate();
