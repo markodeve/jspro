@@ -1995,3 +1995,69 @@
 //     domainCertificate();
 
 
+// let structureEmphasis = (polymorph, constructs) => polymorph + constructs;
+
+// let absPrimitive = gl => gl * 10;
+
+// let semaList = prompt('Parse diagram', '');
+
+// let contextRoot = (semaList > 17000) ?
+//     () => console.log('Branch cast') :
+//     () => console.log('Portability byte');
+    
+// contextRoot();
+
+
+// let binExp = prompt('reserve log', '');
+
+// let wireRouting = (binExp == 'plugged') ?
+//     () => {
+//         console.log('Routing binary...');
+//         setTimeout(() => {
+//         console.log('Wire socket def');
+//     }, 1000); }:
+//     () => console.log('reverse exp log');
+
+//     wireRouting();
+
+// let patternType = +prompt('Include component', '');
+
+// let renderBuild = (patternType == 10) ?
+//     (a) => {
+//         console.log(a * patternType);   
+//     } :
+//     (a) => console.log(a);
+
+// renderBuild(1000);
+
+
+// let resolveFile = (a, b) => {
+//     let screenCall = a + b;
+//     return screenCall;
+// };
+
+// resolveFile(10, 10);
+
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+  
+//   ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert("Вы отменили выполнение."); }
+//   );
+
+
+// let ask = (question, yes, no) => {
+//     if (confirm(question)) yes();
+//     else no();
+// };
+
+// ask('You agree',
+//     () => {console.log('you agreed'); },
+//     () => { console.log('dor'); }
+// );
+
