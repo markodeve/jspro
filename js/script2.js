@@ -2102,15 +2102,47 @@
 // console.log(distInclude.dos);
 
 
-let ReleaseFix = prompt('Module aware', 'wrapping');
+// let ReleaseFix = prompt('Module aware', 'wrapping');
 
-let supportDefault = {};
+// let supportDefault = {};
 
-let dor = prompt();
+// let dor = prompt();
 
-supportDefault.wrapping = dor;
-
-
+// supportDefault.wrapping = dor;
 
 
-console.log(supportDefault);
+// console.log(supportDefault);
+
+
+
+// let holdCaller = prompt('State range', '');
+
+// let caseStruct = {
+//     [holdCaller + 'int']: 90
+// };
+
+// console.log(caseStruct);
+
+
+// function logState(bin, log) {
+//     return {
+//         bin: bin,
+//         log: log
+//     };
+// }
+
+// let showRerun = logState('Read call', 19000);
+
+// console.log(showRerun);
+
+
+function apiBin (prop, logs) {
+    return {
+        prop,
+        logs
+    };
+}
+
+let checkOverlay = apiBin('void state run api', 'route extends socket');
+
+console.log(checkOverlay);
