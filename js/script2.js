@@ -2038,19 +2038,6 @@
 
 // resolveFile(10, 10);
 
-
-// function ask(question, yes, no) {
-//     if (confirm(question)) yes()
-//     else no();
-//   }
-  
-//   ask(
-//     "Вы согласны?",
-//     function() { alert("Вы согласились."); },
-//     function() { alert("Вы отменили выполнение."); }
-//   );
-
-
 // let ask = (question, yes, no) => {
 //     if (confirm(question)) yes();
 //     else no();
@@ -2061,3 +2048,69 @@
 //     () => { console.log('dor'); }
 // );
 
+// let inta = new Object();
+
+// let instanceLayer = {};
+
+// let runHeap = {
+//     analog: 'prototype inheritance',
+//     dispatchPublic: 19000,
+//     abstract: 'External cycle',
+//     'Data call': 'Link implement'
+// };
+
+// runHeap.passingUnderscore = true;
+
+// delete runHeap.abstract;
+
+// const relyEach = {
+//     moduleStands: 1,
+//     'Class field': 'Point general'
+// };
+
+// relyEach.moduleStands = 0;
+
+// relyEach['Class field'] = 'Consists mutable';
+// relyEach['Solve pattern'] = 'Noun parallel';
+
+
+// let implicitState = {
+//     Algfill: 'routExtends'
+// };
+
+// let expQuote = 'Algfill';
+
+// implicitState[expQuote] = 'BinSec';
+
+// implicitState[extMode] = 'StrawBin';
+
+// let parseState = prompt('Parse state binary root', '');
+
+// let focusField = {
+//     actModul: ''
+// };
+
+// focusField.actModul = parseState;
+
+
+// let publicRef = prompt('Lirary model stack', 'dos');
+
+// let distInclude = {
+//     [publicRef]: 19000 
+// };
+
+// console.log(distInclude.dos);
+
+
+let ReleaseFix = prompt('Module aware', 'wrapping');
+
+let supportDefault = {};
+
+let dor = prompt();
+
+supportDefault.wrapping = dor;
+
+
+
+
+console.log(supportDefault);
