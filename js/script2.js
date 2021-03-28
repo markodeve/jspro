@@ -2136,13 +2136,45 @@
 // console.log(showRerun);
 
 
-function apiBin (prop, logs) {
-    return {
-        prop,
-        logs
-    };
-}
+// function apiBin (prop, logs) {
+//     return {
+//         prop,
+//         logs
+//     };
+// }
 
-let checkOverlay = apiBin('void state run api', 'route extends socket');
+// let checkOverlay = apiBin('void state run api', 'route extends socket');
 
-console.log(checkOverlay);
+// console.log(checkOverlay);
+
+
+
+
+// let binaryPrompt = prompt('', '');
+// let involveMove = prompt('', '');
+
+// let haltStore = {
+//     ['assignState' + involveMove]: binaryPrompt
+// };
+
+// console.log(haltStore);
+
+// function intCompile(gen, cons) {
+//     return {
+//         gen,
+//         cons
+//     };
+// }
+
+// let deterDesc = intCompile('Get', 'Cab');
+
+// console.log(deterDesc);
+// console.log("gen" in deterDesc);
+// console.log("cons" in deterDesc);
+
+// let typeAccess = {
+//     enumState: undefined
+// };
+
+// console.log('enumState' in typeAccess);
+
