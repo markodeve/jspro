@@ -2178,3 +2178,15 @@
 
 // console.log('enumState' in typeAccess);
 
+// let explOverlap = {
+//     rowState: 'Runtime func',
+//     tabularSoph: 'Assign dep',
+//     routeExplicit: 17000
+// };
+
+
+// for (let bin in explOverlap) {
+//     console.log(bin);
+//     console.log(explOverlap[bin]);
+// }
+
