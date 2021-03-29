@@ -2192,3 +2192,29 @@
 
 
 
+
+
+// let sourceIntroduce = {
+//     cli: 'GarCol',
+//     directId: 'CompLib',
+//     altDll: 17000
+// };
+
+// for (let key in sourceIntroduce) {
+//     console.log(sourceIntroduce[key]);
+//     console.log(key);
+// }
+
+let binRoot = {
+    "95": "ServeOut",
+    "98": "DeterBin",
+    "91": "StateSwitchBin" 
+};
+
+
+
+
+
+
+
+
