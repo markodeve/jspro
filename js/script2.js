@@ -2205,16 +2205,36 @@
 //     console.log(key);
 // }
 
-let binRoot = {
-    "95": "ServeOut",
-    "98": "DeterBin",
-    "91": "StateSwitchBin" 
-};
+// let binRoot = {
+//     "+95": "ServeOut",
+//     "+98": "DeterBin",
+//     "+91": "StateSwitchBin" 
+// };
+
+// for(let code in binRoot) {
+//     console.log(code);
+// }
 
 
+// let engineFor = "+90.1";
+// let browseAff = "900";
 
+// console.log(Number(Math.trunc(engineFor)));
+// console.log(Number(browseAff));
 
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+  };
 
+let dora = 0;
+  for (let dor in salaries) {
+     
+     dora += salaries[dor];
+  }
+
+  console.log(dora);
 
 
 
