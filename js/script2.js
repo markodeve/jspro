@@ -2222,19 +2222,28 @@
 // console.log(Number(Math.trunc(engineFor)));
 // console.log(Number(browseAff));
 
-let salaries = {
-    John: 100,
-    Ann: 160,
-    Pete: 130
-  };
 
-let dora = 0;
-  for (let dor in salaries) {
-     
-     dora += salaries[dor];
-  }
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+//   };
 
-  console.log(dora);
+//   function multo(obj) {
+
+//     for (let key in obj) {
+//         if (typeof obj[key] == 'number') {
+//             obj[key] *= 2;
+//         }
+//     }
+//     console.log(obj);
+//   }
+
+// multo(menu);
+
+
+// console.log(menu);
+
 
 
 
