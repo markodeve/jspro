@@ -2245,8 +2245,13 @@
 // console.log(menu);
 
 
+let binLogs = {
+    section: "LowVol"
+};
 
+let hexVal = binLogs;
 
+hexVal.section = "dor";
 
 
 
