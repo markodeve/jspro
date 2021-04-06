@@ -2253,23 +2253,23 @@
 
 // hexVal.section = "dor";
 
-let IntRef = {
-    binRoot: '17000',
-    portRed: '1000',
-    statusDub: 'RedirectXR'
+// let IntRef = {
+//     binRoot: '17000',
+//     portRed: '1000',
+//     statusDub: 'RedirectXR'
 
-};
+// };
 
-let IntDup = {};
+// let IntDup = {};
 
-for (let key in IntRef) {
-    IntDup[key] = IntRef[key];
-}
+// for (let key in IntRef) {
+//     IntDup[key] = IntRef[key];
+// }
 
-IntDup.statusDub = 'FetchDataRed';
+// IntDup.statusDub = 'FetchDataRed';
 
-console.log(IntDup);
-console.log(IntRef);
+// console.log(IntDup);
+// console.log(IntRef);
 
 
 
