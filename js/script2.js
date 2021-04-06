@@ -2253,6 +2253,24 @@
 
 // hexVal.section = "dor";
 
+let IntRef = {
+    binRoot: '17000',
+    portRed: '1000',
+    statusDub: 'RedirectXR'
+
+};
+
+let IntDup = {};
+
+for (let key in IntRef) {
+    IntDup[key] = IntRef[key];
+}
+
+IntDup.statusDub = 'FetchDataRed';
+
+console.log(IntDup);
+console.log(IntRef);
+
 
 
 
