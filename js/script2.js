@@ -2274,4 +2274,10 @@
 
 
 
-
+let reRoutFix = {
+    RunBin: "Custom",
+    Routs: {
+        sameRef: 1100,
+        DestFix: 1900
+    }
+};
