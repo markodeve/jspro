@@ -2282,3 +2282,14 @@
 //     }
 // };
 
+// let readFixBin = {
+//     stateRerun: "Redirect secure pool",
+//     objConstState: "Visible port net",
+//     portCheck: 19000
+// };
+
+// for (let key in readFixBin) {
+//     console.log(key);
+//     console.log(readFixBin[key]);
+// }
+
