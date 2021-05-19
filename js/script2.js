@@ -2294,3 +2294,11 @@
 // }
 
 
+//link
+let dirApis = {
+    soloRun: "Logs json binary"
+};
+                  //link2
+let dirApisLink = dirApis; 
+
+dirApisLink.soloRun = "Logs json rerun";
