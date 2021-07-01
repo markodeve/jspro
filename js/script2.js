@@ -2334,7 +2334,7 @@
 // console.log(questionaryFixedValue);
 
 
-let caseCheck = "Js written React implemented React libs ready react sys run bins";
+// let caseCheck = "Js written React implemented React libs ready react sys run bins";
 
 
 //Not global match (with slashes and i and without quotes)
