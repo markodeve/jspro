@@ -2305,5 +2305,41 @@
 
 
 
+// let binaryRun2 = "Binary code rerun bin api";
+
+// let chuncksApi = binaryRun2.slice(7, 11);
+// let chuncksApiNegative = binaryRun2.slice(-9, -5);
+// let chunckApiRest = binaryRun2.slice(5);
+
+// console.log(chuncksApi);
+// console.log(chuncksApiNegative);
+// console.log(chunckApiRest);
+
+// let grayBinSpace = "Repeat box library connect second run security if needed";
+// let sectionPart = grayBinSpace.substring(5, 15);
+// console.log(sectionPart);
+
+// let bundleYpos = "Position Y specs documentation reload on fetch rerun twise cases specs";
+
+// let specsLibs = bundleYpos.substr(10, 30);
+
+// console.log(specsLibs);
+
+// let questionaryListRun = "Second run specifies binary roots logs from LetSoro-2 bundle";
+
+// let currentDutyPos = "PositionSpec";
+
+// let questionaryFixedValue = questionaryListRun.replace("LetSoro-2", currentDutyPos);
+
+// console.log(questionaryFixedValue);
 
 
+let caseCheck = "Js written React implemented React libs ready react sys run bins";
+
+
+//Not global match (with slashes and i and without quotes)
+// let canChange = caseCheck.replace(/REACT/i, "Angular");
+// let canChangeGlobal = caseCheck.replace(/react/g, "Vu");
+
+// console.log(canChange);
+// console.log(canChangeGlobal);
