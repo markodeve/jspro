@@ -2343,3 +2343,13 @@
 
 // console.log(canChange);
 // console.log(canChangeGlobal);
+
+// let binaryaccessLet = "Ukulele otdaam gefi dosy peno udy no pomardo";
+
+// let basapaa = binaryaccessLet[0];
+
+// console.log(basapaa);
+
+// binaryaccessLet.split("");
+
+
