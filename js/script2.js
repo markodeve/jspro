@@ -2352,6 +2352,22 @@
 
 // binaryaccessLet.split("");
 
+// let time = +prompt('What time is it now?');
+// let isweekend = confirm('it is weekend today?');
+
+// if (time <= 8 || time >= 18 || isweekend) {
+//     console.log('The mivinka is closed today');
+// } else {
+//     console.log('Welcome to the mivinka!');
+// }
+
+// let dor1 = false;
+// let dor2 = false;
+// let dor3 = "Dora Dolorez";
+
+// console.log(dor1 || dor2 || dor3 || "Dor");
+
+
 
 
 
