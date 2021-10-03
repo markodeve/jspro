@@ -2367,7 +2367,20 @@
 
 // console.log(dor1 || dor2 || dor3 || "Dor");
 
+// let agBin = 10;
 
+// if (agBin >= 14 && agBin <= 90) {
+//     console.log('yamal');
+// } else {
+//     console.log('nano');
+// }
 
+// let agBin2 = 60;
+
+// if (agBin2 <= 14 || agBin2 >= 90) {
+//     console.log('yamal');
+// } else {
+//     console.log('nano');
+// }
 
 
