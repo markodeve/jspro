@@ -2419,5 +2419,43 @@
 //   message = '';
 // }
 
+// const Dor = true;
+
+// if (typeof Dor == 'string') {
+//     console.log('checkerd');
+// }
+
+// switch (Dor) {
+//     case false:
+//         console.log('Domestic portal chem pospone logs');
+//         break;
+//     case true:
+//         console.log('prepare system boot machinery state apis');
+//         break;
+
+//     default:
+//         break;
+// }
+
+
+
+
+
+
+// let keyRed = true;
+
+// switch (typeof keyRed) {
+//     case ('string'):
+//         console.log('Type is string');
+//         break;
+//     case ('number'):
+//         console.log('Type is number');
+//         break;
+//     case ('boolean'):
+//         console.log('Type is boolean');
+//         break;
+//     default:
+//         break;
+// }
 
 
