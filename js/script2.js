@@ -2384,3 +2384,17 @@
 // }
 
 
+// let dualBinApi = 'port8000';
+
+// (dualBinApi === 'port9000') ? console.log('port9000 fetching...') : console.log('Api rerun logs');
+
+// let year = 2090;
+
+// let cond = (year == 2090);
+
+// if (cond) {
+//     console.log('Dor');
+// } else {
+//     console.log('DorDor');
+// }
+
