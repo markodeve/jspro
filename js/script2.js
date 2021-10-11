@@ -2459,7 +2459,7 @@
 // }
 
 
-// let bolt = 990;
+// let logsCash = 990;
 
 // switch (bolt) {
 //     case (999):
@@ -2472,3 +2472,5 @@
 //         console.log('bin logs cash register');
 //         break;
 // }
+
+
