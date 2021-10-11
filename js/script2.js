@@ -2459,3 +2459,16 @@
 // }
 
 
+// let bolt = 990;
+
+// switch (bolt) {
+//     case (999):
+//         console.log('api rerun');
+//         break;
+//     case (998):
+//         console.log('check flutter str');
+//         break;
+//     default:
+//         console.log('bin logs cash register');
+//         break;
+// }
