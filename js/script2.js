@@ -2473,4 +2473,15 @@
 //         break;
 // }
 
+// let boxa = document.querySelector('.testo');
 
+// boxa.addEventListener('click', (e) => {
+//     boxa.classList.add('sleeves');
+//     console.log(e);
+// });
+
+// window.addEventListener('click', (e) => {
+//     if (e.target != boxa) {
+//         boxa.classList.remove('sleeves');
+//     }
+// });
