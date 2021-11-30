@@ -2485,3 +2485,17 @@
 //         boxa.classList.remove('sleeves');
 //     }
 // });
+
+let bin1 = 1;
+
+function dor1() {
+    let bin2 = 2;
+}
+
+function dor2() {
+    let bin3 = 3;
+    return bin3;
+}
+
+
+
