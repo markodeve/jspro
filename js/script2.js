@@ -2486,16 +2486,25 @@
 //     }
 // });
 
-let bin1 = 1;
+// let bin1 = 1;
 
-function dor1() {
-    let bin2 = 2;
-}
+// function dor1() {
+//     let bin2 = 2;
+// }
 
-function dor2() {
-    let bin3 = 3;
-    return bin3;
-}
+// function dor2() {
+//     let bin3 = 3;
+//     return bin3;
+// }
 
+// function runApiFix2 (check1) {
+//     let resetLog = check1 * 999;
+//     return resetLog;
+// }
 
+// let runApiFix1 = () => {
+
+// };
+
+// runApiFix2(10);
 
