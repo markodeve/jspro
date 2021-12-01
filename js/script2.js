@@ -2508,3 +2508,24 @@
 
 // runApiFix2(10);
 
+// let logDoor = (log) => {
+//     let api = 10;
+//     console.log(log * api);
+// };
+
+// logDoor();
+
+// let dorlogssys = 'port start 1000 rerun on';
+
+// let logCheckBin = (port) => {
+//     dorlogssys = 'port start 1100 rerun on:';
+//     console.log(dorlogssys + port);
+// };
+
+// console.log(logCheckBin(10));
+
+// let doorPortNum = (port, num = "default num") => {
+//     console.log(port);
+//     console.log(num);
+// };
+
