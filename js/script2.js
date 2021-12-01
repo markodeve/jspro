@@ -2524,6 +2524,7 @@
 
 // console.log(logCheckBin(10));
 
+
 // let doorPortNum = (port, num = "default num") => {
 //     console.log(port);
 //     console.log(num);
