@@ -2530,3 +2530,13 @@
 //     console.log(num);
 // };
 
+// let apifet1 = 10;
+
+// let binsbindoor = (door) => {
+//     apifet1 = 20;
+//     return door * apifet1;
+// };
+
+
+
+// console.log(apifet1);
