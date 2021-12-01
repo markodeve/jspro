@@ -2537,6 +2537,4 @@
 //     return door * apifet1;
 // };
 
-
-
 // console.log(apifet1);
