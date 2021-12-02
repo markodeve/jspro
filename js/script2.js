@@ -2538,3 +2538,23 @@
 // };
 
 // console.log(apifet1);
+
+// function callState(binKey, allow, rerun) {
+//     binKey = +prompt('bin key for log');
+
+//     if (binKey > 10) {
+//         allow();
+//     } else {
+//         rerun();
+//     }
+// }
+
+// function dor1 () {
+//     console.log('allow');
+// }
+
+// function dor2 () {
+//     console.log('rerun');
+// }
+
+
