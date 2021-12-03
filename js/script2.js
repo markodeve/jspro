@@ -2576,3 +2576,19 @@
 //     console.log(ll);
 // };
 
+// let binRequest = +prompt('bin request');
+
+// for (let i = 0; i <= binRequest; i++) {
+//     if ((i % 5 === 0) && (i % 3 === 0)) {
+//         console.log('Dor');
+//     } else if (i % 3 === 0) {
+//         console.log('Dor3');
+//     } else if (i % 5 === 0) {
+//         console.log('DorBin');
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+
+
