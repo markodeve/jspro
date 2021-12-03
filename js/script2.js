@@ -2558,3 +2558,17 @@
 // }
 
 
+// let add7 = (num) => {
+//     console.log(num + 7);
+// };
+
+// let multiply = (a, b) => a * b;
+
+
+// let capitalize = (string) => {
+//     let firstLetter = string[0];
+//     let rain = string.slice(1);
+//     console.log(firstLetter.toUpperCase() + rain);
+// };
+
+
