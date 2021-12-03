@@ -2571,4 +2571,8 @@
 //     console.log(firstLetter.toUpperCase() + rain);
 // };
 
+// let lasLetter = (string) => {
+//     let ll = string.slice(-1);
+//     console.log(ll);
+// };
 
