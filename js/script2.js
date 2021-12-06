@@ -2590,5 +2590,20 @@
 //     }
 // }
 
+// let melo = Math.floor(Math.random() * 10 + 1);
+// let playerGuess = +prompt('enter number');
 
+// let guessing = (pc, player) => {
+    
+//     console.log(`Your number is ${player} now waiting for pc tp guess`);
+//     setTimeout(() => {
+//         console.log(`PC says the number is ${pc}`);
+//         if (pc === player) {
+//         console.log('The PC has guessed! Wow!');
+//     } else {
+//         console.log('PC failed to guess');
+//     }
+//     }, 2000);
+// };
 
+// guessing(melo, playerGuess);
