@@ -2611,69 +2611,74 @@
 
 //stone, paper, scissors start =======================>
 
-let computerPlay = () => {
-    let guess = Math.floor(Math.random() * 3) + 1;
-    if (guess == 1) {
-        guess = 'paper';
-    } else if (guess == 2) {
-        guess = 'stone';
-    } else {
-        guess = 'scissors';
-    }
-    return guess;
-};
+// let computerPlay = () => {
+//     let guess = Math.floor(Math.random() * 3) + 1;
+//     if (guess == 1) {
+//         guess = 'paper';
+//     } else if (guess == 2) {
+//         guess = 'stone';
+//     } else {
+//         guess = 'scissors';
+//     }
+//     return guess;
+// };
 
-let playerGuess = () => {
-    let player = prompt('paper, stone or scissors?');
-    return player;
-};
+// let playerGuess = () => {
+//     let player = prompt('paper, stone or scissors?');
+//     return player;
+// };
 
-let humanScore = 0;
-let compScore = 0;
+// let humanScore = 0;
+// let compScore = 0;
 
-let playRound = (player, computer) => {
-    let human = player.toLowerCase();
+// let playRound = (player, computer) => {
+//     let human = player.toLowerCase();
     
-    if (human == 'paper' && computer == 'stone') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
-        humanScore += 1;
-    } else if (human == 'stone' && computer == 'paper') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
-        compScore += 1;
-    } else if (human == 'scissors' && computer == 'stone') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
-        compScore += 1;
-    } else if (human == 'stone' && computer == 'scissors') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
-        humanScore += 1;
-    } else if (human == 'paper' && computer == 'scissors') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
-        compScore += 1;
-    } else if (human == 'scissors' && computer == 'paper') {
-        console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
-        humanScore += 1;
-    } else if (human == computer) {
-        console.log(`You guessed ${human} and computer guessed ${computer} it's the same!`);
-    } else {
-        console.log('you havent did not introduce the correct option, 1 point goes to the computer');
-        compScore += 1;
-    }
-};
+//     if (human == 'paper' && computer == 'stone') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
+//         humanScore += 1;
+//     } else if (human == 'stone' && computer == 'paper') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
+//         compScore += 1;
+//     } else if (human == 'scissors' && computer == 'stone') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
+//         compScore += 1;
+//     } else if (human == 'stone' && computer == 'scissors') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
+//         humanScore += 1;
+//     } else if (human == 'paper' && computer == 'scissors') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You lost!`);
+//         compScore += 1;
+//     } else if (human == 'scissors' && computer == 'paper') {
+//         console.log(`You guessed ${human} and computer guessed ${computer} You won!`);
+//         humanScore += 1;
+//     } else if (human == computer) {
+//         console.log(`You guessed ${human} and computer guessed ${computer} it's the same!`);
+//     } else {
+//         console.log('you havent did not introduce the correct option, 1 point goes to the computer');
+//         compScore += 1;
+//     }
+// };
 
-let game = () => {
-    playRound(playerGuess(), computerPlay());
-    playRound(playerGuess(), computerPlay());
-    playRound(playerGuess(), computerPlay());
-    playRound(playerGuess(), computerPlay());
-    playRound(playerGuess(), computerPlay());
-    if (humanScore > compScore) {
-        console.log('Player wins');
-    } else if (humanScore < compScore) {
-        console.log('Computer wins');
-    } else {
-        console.log('you both did the same!');
-    }
-};
+// let game = () => {
+//     playRound(playerGuess(), computerPlay());
+//     playRound(playerGuess(), computerPlay());
+//     playRound(playerGuess(), computerPlay());
+//     playRound(playerGuess(), computerPlay());
+//     playRound(playerGuess(), computerPlay());
+//     if (humanScore > compScore) {
+//         console.log('Player wins');
+//     } else if (humanScore < compScore) {
+//         console.log('Computer wins');
+//     } else {
+//         console.log('you both did the same!');
+//     }
+// };
 
 //stone, paper, scissors until here ==============================>
 
+// let leopard = 'Leopard';
+
+// let leo = leopard.replace('p', 'n');
+
+// console.log(leo);
