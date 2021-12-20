@@ -2682,3 +2682,14 @@
 // let leo = leopard.replace('p', 'n');
 
 // console.log(leo);
+
+// const binRerunSecond = ['api check 1', 'api check 2', 'api check 3'];
+
+// let apiCheckValidate = (api) => {
+//     return api + ' validated logs rerun message bins reopen';
+// };
+
+// const validatedApi = binRerunSecond.map(apiCheckValidate);
+
+// console.log(validatedApi);
+
