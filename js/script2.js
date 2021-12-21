@@ -2693,3 +2693,17 @@
 
 // console.log(validatedApi);
 
+const rerunSegment = ['port1', 'por2/n >>> res.!', 'systemCashLogs'];
+
+// for (const os of rerunSegment) {
+//     console.log(os);
+// }
+
+let portNum = (num) => {
+      let dor = num + '7' + '1';
+      return dor.toUpperCase() + ' 000';
+};
+
+const newLogs = rerunSegment.map(portNum);
+
+console.log(newLogs);
