@@ -2693,17 +2693,45 @@
 
 // console.log(validatedApi);
 
-const rerunSegment = ['port1', 'por2/n >>> res.!', 'systemCashLogs'];
+// const rerunSegment = ['port1', 'por2/n >>> res.!', 'systemCashLogs'];
 
 // for (const os of rerunSegment) {
 //     console.log(os);
 // }
 
-let portNum = (num) => {
-      let dor = num + '7' + '1';
-      return dor.toUpperCase() + ' 000';
-};
+// let portNum = (num) => {
+//       let dor = num + '7' + '1';
+//       return dor.toUpperCase() + ' 000';
+// };
 
-const newLogs = rerunSegment.map(portNum);
+// const newLogs = rerunSegment.map(portNum);
 
-console.log(newLogs);
+// console.log(newLogs);
+
+// const logSpecs = [190, 9110, 119, 990, 810, 12555];
+
+// let zeroRerunState = (spec) => {
+//     return spec.toString().includes(0);
+// };
+
+// const allowedLogRerun = logSpecs.filter(zeroRerunState);
+
+// console.log(allowedLogRerun);
+
+// const tveLogs = ['shutRerun', 'progSkip', 'rerun', 'gestion', 'specSearch'];
+
+// const filtered = tveLogs.filter((tve) => tve.startsWith('g'));
+// console.log(filtered);
+
+// const viewMappingSpec = ['log1', 'rerunBin2', 'searchResubmit', 'portRerunBins', 'postSameNum'];
+
+// const rerunedSame = viewMappingSpec.filter((dor) => dor.startsWith('p'));
+
+// console.log(rerunedSame);
+
+let portLogsRerun = +prompt('post rerun');
+
+while (portLogsRerun < 10) {
+    console.log('port logs cached memory bin rerun err repost process bins');
+    portLogsRerun++;
+}
