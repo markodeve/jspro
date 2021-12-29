@@ -2729,9 +2729,16 @@
 
 // console.log(rerunedSame);
 
-let portLogsRerun = +prompt('post rerun');
+// let portLogsRerun = +prompt('post rerun');
 
-while (portLogsRerun < 10) {
-    console.log('port logs cached memory bin rerun err repost process bins');
-    portLogsRerun++;
-}
+// while (portLogsRerun < 10) {
+//     console.log('port logs cached memory bin rerun err repost process bins');
+//     portLogsRerun++;
+// }
+
+// let dorBin;
+
+// while (dorBin != 10) {
+//     dorBin = prompt('');
+// }
+
