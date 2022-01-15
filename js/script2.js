@@ -2744,10 +2744,17 @@
 
 
 
-for (let i = 0; i < 10; i++) {
-    if (i % 2 == 0) {
-        continue;
-    }
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 == 0) {
+//         continue;
+//     }
 
-    console.log(i);
-}
+//     console.log(i);
+// }
+
+// let logCallRerun;
+
+// do {
+//     logCallRerun = prompt('');
+// } while (logCallRerun < 100 && logCallRerun); 
+
