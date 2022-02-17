@@ -2758,3 +2758,14 @@
 //     logCallRerun = prompt('');
 // } while (logCallRerun < 100 && logCallRerun); 
 
+
+
+// let varTimes = (word, times) => {
+//     let resulta = '';
+//     for (let i = 0; i < times; i++) {
+//         resulta += word;
+//     }
+//     return resulta;
+// };
+
+// varTimes('dor', 3);
