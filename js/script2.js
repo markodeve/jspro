@@ -2769,3 +2769,32 @@
 // };
 
 // varTimes('dor', 3);
+
+
+// let opsLogs = 'rerun bin apis';
+
+// let array1 = [];
+
+// for (let i = 0; i < opsLogs.length; i++) {
+    
+//     array1.push(opsLogs[i]);
+    
+    
+// }
+// array1.reverse();
+
+// console.log(array1.join(''));
+
+
+// let reverseApi = (str) => {
+//     let array1 = [];
+
+//     for(let i = 0; i < str.length; i++) {
+//         array1.push(str[i]);
+//     }
+//     array1.reverse();
+
+//     let array2 = array1.join('');
+
+//     return array2;
+// };
