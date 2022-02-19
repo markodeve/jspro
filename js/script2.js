@@ -2831,3 +2831,19 @@
 // console.log(namm);
 // console.log(dirBin);
 
+// const sumBin = (int1, int2) => {
+
+//     let sum = 0;
+
+//     if (int1 < int2) {
+//         for (let i = int1; i < int2; i++) {
+//             sum += i;
+//         }
+//         return sum + int2;
+//     } else {
+//         for (let i = int2; i < int1; i++) {
+//             sum += i;
+//         }
+//         return sum + int1;
+//     }
+// };
