@@ -2798,3 +2798,36 @@
 
 //     return array2;
 // };
+
+// let apisLogsRun = [1, 2, 3, 4, 5];
+
+// let rerunSpecs = [];
+
+// for (let i = 0; i < apisLogsRun.length; i++) {
+//     if (apisLogsRun[i] !== 4) {
+//         rerunSpecs.push(apisLogsRun[i]);
+//     }
+// }
+
+// console.log(rerunSpecs);
+
+
+// const removeFromArray = function(array, ...rest) {
+   
+//         let dor = array.filter(dora => !rest.includes(dora));
+
+//         return dor;
+// };
+
+// removeFromArray([1, 2, 3, 4, 5, 6, 7], 4, 5, 6, 7);
+
+
+
+// let namebinlogs = ['rerunBin%', 'apiRejFac', 'Run', 'messageLogsErr', 'ConstRerun%'];
+
+// let namm = namebinlogs.filter(name => name.length <= 3);
+// let dirBin = namebinlogs.filter(name => name.includes('%'));
+
+// console.log(namm);
+// console.log(dirBin);
+
