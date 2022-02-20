@@ -2847,3 +2847,16 @@
 //         return sum + int1;
 //     }
 // };
+
+
+// let glue = (clay) => {
+
+//     if (clay % 4 == 0) {
+//         return true;
+//     } else if (clay % 100 == 0 && clay % 400 != 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+
+// };
