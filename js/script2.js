@@ -2860,3 +2860,15 @@
 //     }
 
 // };
+
+
+// let dirArrange = [1, 2, 3, 4, 5, 6, 7];
+
+// let rerunChatBin = (arr) => {
+
+    
+//     return arr[Math.floor(Math.random() * arr.length)];
+
+// };
+
+// rerunChatBin(dirArrange);
