@@ -2894,4 +2894,19 @@
 
 
 
+// let BinApi1 = [1, 1, 1, 1, 1];
 
+// while (BinApi1.length != 5) {
+//     let dor;
+//     BinApi1.push(dor = prompt('Introduce 5 BinApi keys'));
+
+// }
+
+// let BinApi2 = [];
+
+// BinApi1.forEach(function (params) {
+//     let rerunDir = ['Port1', 'Port2', 'Port3', 'Port5', 'port6'];
+//     return BinApi2.push(params += rerunDir[Math.floor(Math.random() * BinApi1.length)]);
+// });
+
+// console.log(BinApi2);
