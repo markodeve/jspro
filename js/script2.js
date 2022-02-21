@@ -2872,3 +2872,26 @@
 // };
 
 // rerunChatBin(dirArrange);
+
+// let signalRerun = "Signal";
+
+// let additio = (stroke) => {
+//     return stroke += 'Evo';
+// };
+
+// additio(signalRerun);
+
+
+// let arrangeDirMeta = ['seriesBin', 'dirRerun', 'metaReload'];
+
+// let dor = [];
+
+// arrangeDirMeta.forEach(function (params) {
+//     dor.push(params += 'evaluated');
+//     return dor;
+// });
+
+
+
+
+
