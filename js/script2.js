@@ -2911,3 +2911,5 @@
 
 // console.log(BinApi2);
 
+let dor = document.getElementById('dor');
+
