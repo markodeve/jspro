@@ -2935,5 +2935,16 @@
 // dor.appendChild(blueh3);
 // dor.appendChild(pink);
 
+// const doorBtn = document.getElementById('door');
 
+// doorBtn.addEventListener('click', (e) => {
+//     console.log(e);
+//     if (e.shiftKey == true && e.altKey == true) {
+//         console.log('You clicked with shift and alt keys pressed');
+//     } else if (e.shiftKey == true) {
+//         console.log('You clicked with shift key pressed');
+//     } else if (e.altKey == true) {
+//         console.log('You clicked with alt key pressed');
+//     }
+// });
 
