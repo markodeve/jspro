@@ -2913,5 +2913,27 @@
 
 // let dor = document.getElementById('dor');
 
+// let redp = document.createElement('p');
+// let blueh3 = document.createElement('h2');
+// let pink = document.createElement('div');
+// let pp = document.createElement('p');
+// let innerH1 = document.createElement('h1');
+
+// redp.style = "color: red";
+// blueh3.style = "color: blue";
+// pink.style = "border: 1px solid black; background-color: pink";
+
+// redp.textContent = "Hey I’m red!";
+// blueh3.textContent = "I'm a blue h3!";
+// pp.textContent = "ME TOO!";
+// innerH1.textContent = "I'm in a div";
+
+// pink.appendChild(pp);
+// pink.appendChild(innerH1);
+
+// dor.appendChild(redp);
+// dor.appendChild(blueh3);
+// dor.appendChild(pink);
+
 
 
