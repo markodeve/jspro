@@ -2954,8 +2954,32 @@
 //     }
 // });
 
-const logsOps = [1, 2, 3];
+// const logsOps = [1, 2, 3];
 
-logsOps.forEach((dor) => console.log(dor + 'dor'));
+// logsOps.forEach((dor) => console.log(dor + 'dor'));
 
+
+// const doorBtn = document.getElementById('door');
+
+// doorBtn.addEventListener('click', (e) => {
+//     e.target.style.background = 'red'; 
+// });
+
+// const buttons = document.querySelectorAll('.btnDor'),
+//       reset = document.querySelector('.btnReset');
+
+// buttons.forEach((button) => {
+//     button.addEventListener('click', (e) => {
+//         e.target.classList.toggle('blue');
+//     });
+//     button.addEventListener('dblclick', (e) => {
+//         e.target.classList.toggle('green');
+//     });
+// });
+
+// reset.addEventListener('click', () => {
+//     buttons.forEach(element => {
+//         element.classList.remove('blue', 'green');
+//     });
+// });
 

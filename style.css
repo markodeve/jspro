@@ -263,3 +263,19 @@ body {
     color: cornflowerblue;
 
 }
+
+
+.btnDor {
+    width: 100px;
+    margin: 10px 10px 0;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    transition: 0.5s all;
+}
+
+.green {
+    background-color: darkgreen;
+    transition: 0.5s all;
+}
