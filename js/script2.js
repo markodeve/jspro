@@ -2938,6 +2938,12 @@
 // const doorBtn = document.getElementById('door');
 
 // doorBtn.addEventListener('click', (e) => {
+//     console.log(e.target);
+//     console.log(e);
+//     e.target.hidden = true;
+// });
+
+// doorBtn.addEventListener('click', (e) => {
 //     console.log(e);
 //     if (e.shiftKey == true && e.altKey == true) {
 //         console.log('You clicked with shift and alt keys pressed');
@@ -2947,4 +2953,9 @@
 //         console.log('You clicked with alt key pressed');
 //     }
 // });
+
+const logsOps = [1, 2, 3];
+
+logsOps.forEach((dor) => console.log(dor + 'dor'));
+
 
