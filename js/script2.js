@@ -2990,3 +2990,14 @@
 //     e.target.classList.toggle('rs_none');
 // }));
 
+const par = document.querySelector('.par');
+const chi = document.querySelector('.ch');
+
+chi.addEventListener('click', (e) => {
+    e.stopPropagation();
+});
+
+par.addEventListener('click', (e) => {
+    e.stopPropagation();
+    par.remove();
+});
