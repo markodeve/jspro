@@ -2990,14 +2990,15 @@
 //     e.target.classList.toggle('rs_none');
 // }));
 
-const par = document.querySelector('.par');
-const chi = document.querySelector('.ch');
+// const par = document.querySelector('.par');
+// const chi = document.querySelector('.ch');
 
-chi.addEventListener('click', (e) => {
-    e.stopPropagation();
-});
+// chi.addEventListener('click', (e) => {
+//     e.stopPropagation();
+// });
 
-par.addEventListener('click', (e) => {
-    e.stopPropagation();
-    par.remove();
-});
+// par.addEventListener('click', (e) => {
+//     e.stopPropagation();
+//     par.remove();
+// });
+
