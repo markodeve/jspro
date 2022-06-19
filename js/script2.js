@@ -3002,3 +3002,10 @@
 //     par.remove();
 // });
 
+let colda = document.createElement('a');
+
+document.body.appendChild(colda);
+
+colda.setAttribute('href', '#');
+
+colda.innerText = 'dos';
