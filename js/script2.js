@@ -3002,10 +3002,14 @@
 //     par.remove();
 // });
 
-let colda = document.createElement('a');
+// let colda = document.createElement('a');
 
-document.body.appendChild(colda);
+// document.body.appendChild(colda);
 
-colda.setAttribute('href', '#');
+// colda.setAttribute('href', '#');
 
-colda.innerText = 'dos';
+// colda.innerText = 'dos';
+
+// let closeUpBin = document.querySelector('.lista');
+
+let doraa = document.querySelector('.losaa').firstChild;
