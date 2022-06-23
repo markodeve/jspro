@@ -3012,4 +3012,5 @@
 
 // let closeUpBin = document.querySelector('.lista');
 
-let doraa = document.querySelector('.losaa').firstChild;
+// let doraa = document.querySelector('.losaa');
+
