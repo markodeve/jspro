@@ -3014,3 +3014,18 @@
 
 // let doraa = document.querySelector('.losaa');
 
+// const cbxApi = document.getElementById('api_sys');
+// const btnApi = document.getElementById('asa_btn');
+
+// function Clo(e) {
+//     e.preventDefault();
+//     console.error('Can not be checked, press the Api log button to deblock');
+// }
+
+// cbxApi.addEventListener('click', Clo);
+
+// btnApi.addEventListener('click', () => {
+//     cbxApi.removeEventListener('click', Clo);
+//     console.log('Checkbox unblocked');
+// });
+
