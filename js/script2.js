@@ -3029,3 +3029,4 @@
 //     console.log('Checkbox unblocked');
 // });
 
+const binApiLog = 10;
