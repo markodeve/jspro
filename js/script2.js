@@ -3029,3 +3029,80 @@
 //     console.log('Checkbox unblocked');
 // });
 
+
+const compPlay = () => {
+    let guess = Math.floor(Math.random() * 3 + 1);
+
+    if (guess == 1) {
+        guess = 'rock';
+    }
+    if (guess == 2) {
+        guess = 'paper';
+    }
+    if (guess == 3) {
+        guess = 'scissors';
+    }
+    return guess;
+};
+
+let playerGuess = () => {
+    let player = prompt('rock, paper, scissors?');
+    return player;
+};
+
+let compScore = 0;
+let playerScore = 0;
+
+
+const playRound = (comp, human) => {
+    
+    human.toLowerCase();
+     if (comp == 'rock' && human == 'paper') {
+        playerScore += 1;
+        console.log('you: paper, pc: rock you win');
+    } else if (comp == 'paper' && human == 'scissors') {
+        playerScore += 1;
+        console.log('you: scissors, pc: paper, you win');
+    } else if (comp == 'scissors' && human == 'rock') {
+        playerScore += 1;
+        console.log('you: rock, pc: scissors, you win');
+    } else if (human == 'rock' && comp == 'paper') {
+        compScore += 1;
+        console.log('you: rock, pc: paper, pc wins');
+    } else if (human == 'paper' && comp == 'scissors') {
+        compScore += 1;
+        console.log('you: paper, pc: scissors, pc wins');
+    } else if (human == 'scissors' && comp == 'rock') {
+        compScore += 1;
+        console.log('you: scissors, pc: rock, pc wins');
+    } else if (comp == human) {
+        console.log(`You both chose ${comp}`);
+    }
+};
+
+
+
+const game = () => {
+
+    
+    
+            for (let i = 0; i < 5; i++) {
+                playRound(compPlay(), playerGuess());
+
+            }
+    let cs = compScore;
+    let ps = playerScore;
+            
+    if (cs > ps) {
+        console.log('PC wins');
+    } else if (cs < ps) {
+        console.log('player wins');
+    } else if (cs == ps) {
+        console.log('nichya');
+    }
+
+    console.log(`total score: PC:${cs}, Player:${ps}`);
+};
+
+
+
