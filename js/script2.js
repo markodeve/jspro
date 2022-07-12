@@ -3029,80 +3029,117 @@
 //     console.log('Checkbox unblocked');
 // });
 
+const selectBtn = document.querySelector('.bottom_cont');
+const startBtn = document.querySelector('.start_round');
+const pcScore = document.querySelector('.pc-score');
+const playerScore = document.querySelector('.player-score');
+const pcSel = document.querySelector('.pc-select');
+const userSel = document.querySelector('.player-select');
 
-const compPlay = () => {
-    let guess = Math.floor(Math.random() * 3 + 1);
+let playerGuess;
+let pcGuess;
 
-    if (guess == 1) {
-        guess = 'rock';
-    }
-    if (guess == 2) {
-        guess = 'paper';
-    }
-    if (guess == 3) {
-        guess = 'scissors';
-    }
-    return guess;
-};
-
-let playerGuess = () => {
-    let player = prompt('rock, paper, scissors?');
-    return player;
-};
-
-let compScore = 0;
-let playerScore = 0;
-
-
-const playRound = (comp, human) => {
+const computerPlay = () => {
+    let pcGuess = Math.floor(Math.random() * 3 + 1);
+    switch (pcGuess) {
+        case 1:
+            pcGuess = 'rock';
+            break;
+        case 2: 
+            pcGuess = 'paper';
+            break;
+        case 3:
+            pcGuess = 'scissors';
+            break;
     
-    human.toLowerCase();
-     if (comp == 'rock' && human == 'paper') {
-        playerScore += 1;
-        console.log('you: paper, pc: rock you win');
-    } else if (comp == 'paper' && human == 'scissors') {
-        playerScore += 1;
-        console.log('you: scissors, pc: paper, you win');
-    } else if (comp == 'scissors' && human == 'rock') {
-        playerScore += 1;
-        console.log('you: rock, pc: scissors, you win');
-    } else if (human == 'rock' && comp == 'paper') {
-        compScore += 1;
-        console.log('you: rock, pc: paper, pc wins');
-    } else if (human == 'paper' && comp == 'scissors') {
-        compScore += 1;
-        console.log('you: paper, pc: scissors, pc wins');
-    } else if (human == 'scissors' && comp == 'rock') {
-        compScore += 1;
-        console.log('you: scissors, pc: rock, pc wins');
-    } else if (comp == human) {
-        console.log(`You both chose ${comp}`);
+        default:
+            break;
     }
+
+    switch (pcGuess) {
+        case 'rock':
+            pcSel.textContent = '⛰';
+            break;
+        case 'paper':
+            pcSel.textContent = '📃';
+            break;
+        case 'scissors':
+            pcSel.textContent = '✂';
+            break;
+        default:
+            break;
+    }
+
+    return pcGuess;
+    
+};
+
+
+let pcPoints = 0;
+let userPoints = 0;
+
+
+const playerPlay = () => {
+    
+    selectBtn.addEventListener('click', function rpsSelection(e)  {
+        
+        if (e.target.classList.contains('rock')) {
+            playerGuess = 'rock';
+        } if (e.target.classList.contains('paper')) {
+            playerGuess = 'paper';
+        } if (e.target.classList.contains('scissors')) {
+            playerGuess = 'scissors';
+        } 
+
+        userSel.textContent = e.target.textContent;
+        console.log(playerGuess);
+        let pcGuess2 = computerPlay();
+        console.log(pcGuess2);
+        
+        if (pcGuess2 == 'rock' && playerGuess == 'paper') {
+            userPoints += 1;
+        }
+        if (pcGuess2 == 'paper' && playerGuess == 'scissors') {
+            userPoints += 1;
+        }
+        if (pcGuess2 == 'scissors' && playerGuess == 'rock') {
+            userPoints += 1;
+        }
+        if (pcGuess2 == 'paper' && playerGuess == 'rock') {
+            pcPoints += 1;
+        }
+        if (pcGuess2 == 'scissors' && playerGuess == 'paper') {
+            pcPoints += 1;
+        }
+        if (pcGuess2 == 'rock' && playerGuess == 'scissors') {
+            pcPoints += 1;
+        }
+        
+        
+       playerScore.textContent = userPoints;
+       pcScore.textContent = pcPoints;
+    
+       if(userPoints >= 5 || pcPoints >= 5) {
+           selectBtn.removeEventListener('click', rpsSelection);
+       }
+       
+        
+    });    
+
+    
 };
 
 
 
-const game = () => {
-
-    
-    
-            for (let i = 0; i < 5; i++) {
-                playRound(compPlay(), playerGuess());
-
-            }
-    let cs = compScore;
-    let ps = playerScore;
-            
-    if (cs > ps) {
-        console.log('PC wins');
-    } else if (cs < ps) {
-        console.log('player wins');
-    } else if (cs == ps) {
-        console.log('nichya');
-    }
-
-    console.log(`total score: PC:${cs}, Player:${ps}`);
-};
+startBtn.addEventListener('click', () => {
+userPoints = 0;
+pcPoints = 0;
+playerScore.textContent = userPoints;
+pcScore.textContent = pcPoints;
+pcSel.textContent = '';
+userSel.textContent = '';
+});
+startBtn.addEventListener('click', playerPlay);
 
 
 
