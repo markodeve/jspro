@@ -323,5 +323,41 @@ body {
     background-color: cornsilk;
     border-radius: 5px;
     cursor: pointer;
+}
 
+.start_round:hover {
+    background-color: blue;
+}
+
+.popup_win {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: whitesmoke;
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    text-align: center;
+    display: none;
+    transition: all 0.5s;
+}
+
+.popup_winner {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.popup_btn {
+    margin-top: 30px;
+    width: 200px;
+    background-color: violet;
+    cursor: pointer;
+
+}
+
+
+
+.popup_win_show {
+    display: block;
 }

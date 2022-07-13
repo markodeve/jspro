@@ -3035,6 +3035,9 @@ const pcScore = document.querySelector('.pc-score');
 const playerScore = document.querySelector('.player-score');
 const pcSel = document.querySelector('.pc-select');
 const userSel = document.querySelector('.player-select');
+const popupWin = document.querySelector('.popup_win');
+const winner = document.querySelector('.popup_winner');
+const popupBtn = document.querySelector('.popup_btn');
 
 let playerGuess;
 let pcGuess;
@@ -3083,15 +3086,22 @@ const playerPlay = () => {
     
     selectBtn.addEventListener('click', function rpsSelection(e)  {
         
-        if (e.target.classList.contains('rock')) {
-            playerGuess = 'rock';
-        } if (e.target.classList.contains('paper')) {
-            playerGuess = 'paper';
-        } if (e.target.classList.contains('scissors')) {
-            playerGuess = 'scissors';
-        } 
+        
 
-        userSel.textContent = e.target.textContent;
+
+        if (!e.target.classList.contains('bottom_cont')) {
+
+
+            if (e.target.classList.contains('rock')) {
+                playerGuess = 'rock';
+            } if (e.target.classList.contains('paper')) {
+                playerGuess = 'paper';
+            } if (e.target.classList.contains('scissors')) {
+                playerGuess = 'scissors';
+            } 
+
+
+            userSel.textContent = e.target.textContent;
         console.log(playerGuess);
         let pcGuess2 = computerPlay();
         console.log(pcGuess2);
@@ -3121,9 +3131,18 @@ const playerPlay = () => {
     
        if(userPoints >= 5 || pcPoints >= 5) {
            selectBtn.removeEventListener('click', rpsSelection);
-       }
-       
-        
+           if (userPoints > pcPoints) {
+               winner.textContent = 'User wins';
+           } else if (pcPoints > userPoints) {
+               winner.textContent = 'PC wins';
+           } else {
+               winner.textContent = 'Draw';
+           }
+           popupWin.classList.add('popup_win_show');
+
+            }
+        }
+    
     });    
 
     
@@ -3140,6 +3159,10 @@ pcSel.textContent = '';
 userSel.textContent = '';
 });
 startBtn.addEventListener('click', playerPlay);
+
+popupBtn.addEventListener('click', () => {
+    popupWin.classList.remove('popup_win_show');
+});
 
 
 
